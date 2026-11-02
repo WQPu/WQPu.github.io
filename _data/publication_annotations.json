@@ -1,0 +1,497 @@
+{
+  "schema_version": 1,
+  "topic_definitions": [
+    {
+      "id": "signal-processing",
+      "name": "Signal Processing",
+      "description": "Sensing, estimation, localization, array processing, beamforming, and model-based anti-jamming."
+    },
+    {
+      "id": "optimization",
+      "name": "Optimization",
+      "description": "General numerical optimization, constrained and nonconvex algorithms, tensor optimization, and zeroth-order methods."
+    },
+    {
+      "id": "learning-algorithms",
+      "name": "Learning Algorithms",
+      "description": "Online and reinforcement learning, imitation learning, neural and probabilistic models, and learning-based decision algorithms."
+    },
+    {
+      "id": "wireless",
+      "name": "Wireless Networks",
+      "description": "Wireless networks, radio maps, channel prediction, communication systems, and network slicing."
+    },
+    {
+      "id": "agents",
+      "name": "Agentic Learning",
+      "description": "LLM methods, agent-assisted modeling, and automated algorithm discovery."
+    },
+    {
+      "id": "tracking",
+      "name": "Target Tracking",
+      "description": "Target tracking and radar resource management, including scheduling, sensor coordination, and trajectory planning."
+    }
+  ],
+  "topics": {
+    "chen2026distributed": [
+      "signal-processing"
+    ],
+    "chen2026learning": [
+      "learning-algorithms"
+    ],
+    "dong2026deep": [
+      "learning-algorithms"
+    ],
+    "dong2026romberg": [
+      "optimization"
+    ],
+    "guo2026performance": [
+      "learning-algorithms"
+    ],
+    "hou2026discover": [
+      "agents"
+    ],
+    "li2026mimomamba": [
+      "learning-algorithms"
+    ],
+    "li2026optimistic": [
+      "learning-algorithms"
+    ],
+    "liu2026learning": [
+      "learning-algorithms"
+    ],
+    "pan2026data": [
+      "signal-processing"
+    ],
+    "pu2026multiple": [
+      "tracking"
+    ],
+    "qin2026foundation": [
+      "wireless"
+    ],
+    "song2026joint": [
+      "tracking"
+    ],
+    "wang2026uncertainty": [
+      "learning-algorithms"
+    ],
+    "xu2026radio": [
+      "wireless"
+    ],
+    "yang2026failure": [
+      "wireless"
+    ],
+    "you2026robust": [
+      "signal-processing"
+    ],
+    "zhang2026collaborative": [
+      "learning-algorithms"
+    ],
+    "zhao2026closed": [
+      "signal-processing"
+    ],
+    "zhao2026parallel": [
+      "optimization"
+    ],
+    "zhou2026learning": [
+      "learning-algorithms"
+    ],
+    "zhou2026token": [
+      "agents"
+    ],
+    "chen2025robust": [
+      "signal-processing"
+    ],
+    "dong2025integrated": [
+      "wireless"
+    ],
+    "guo2025using": [
+      "learning-algorithms"
+    ],
+    "jiao2025heterogeneous": [
+      "tracking"
+    ],
+    "jiao2025joint": [
+      "tracking"
+    ],
+    "jiao2025power": [
+      "tracking"
+    ],
+    "li2025efficient": [
+      "wireless"
+    ],
+    "luo2025efficient": [
+      "signal-processing"
+    ],
+    "pan2025leveraging": [
+      "agents"
+    ],
+    "sun2025hybrid": [
+      "learning-algorithms"
+    ],
+    "xu2025radio": [
+      "wireless"
+    ],
+    "yang2025reliability": [
+      "wireless"
+    ],
+    "you2025calibration": [
+      "signal-processing"
+    ],
+    "zhang2025adaptive": [
+      "learning-algorithms"
+    ],
+    "zhang2025learning": [
+      "learning-algorithms"
+    ],
+    "zhao2025can": [
+      "signal-processing"
+    ],
+    "zhao2025contextual": [
+      "signal-processing"
+    ],
+    "zhao2025efficient": [
+      "optimization"
+    ],
+    "zhou2025harnessing": [
+      "learning-algorithms"
+    ],
+    "dai2024integrated": [
+      "tracking"
+    ],
+    "fan2024sensing": [
+      "learning-algorithms"
+    ],
+    "guan2024robust": [
+      "signal-processing"
+    ],
+    "jiao2024wideband": [
+      "tracking"
+    ],
+    "jiao4777739resource": [
+      "tracking"
+    ],
+    "li2024knowledge": [
+      "learning-algorithms"
+    ],
+    "liu2024parameter": [
+      "learning-algorithms"
+    ],
+    "liu2024radar": [
+      "learning-algorithms"
+    ],
+    "pu2024smoothed": [
+      "optimization"
+    ],
+    "wang2024backward": [
+      "signal-processing"
+    ],
+    "wang2024bounded": [
+      "signal-processing"
+    ],
+    "wu2024clutter": [
+      "signal-processing"
+    ],
+    "xu2024efficient": [
+      "optimization"
+    ],
+    "yan2024deployment": [
+      "tracking"
+    ],
+    "zhang2024efficient": [
+      "signal-processing"
+    ],
+    "zhang2024frequency": [
+      "tracking"
+    ],
+    "zhang2024multi": [
+      "tracking"
+    ],
+    "zhao2024third": [
+      "optimization"
+    ],
+    "zhou2024cooperative": [
+      "signal-processing"
+    ],
+    "zhou2024joint": [
+      "signal-processing"
+    ],
+    "zhou2024matrix": [
+      "signal-processing"
+    ],
+    "zhou2024robust": [
+      "signal-processing"
+    ],
+    "dai2023multi": [
+      "tracking"
+    ],
+    "fan2023inverse": [
+      "learning-algorithms"
+    ],
+    "li2023exploration": [
+      "wireless"
+    ],
+    "liu2023weak": [
+      "signal-processing"
+    ],
+    "pu2023efficient": [
+      "signal-processing"
+    ],
+    "pu2023penalized": [
+      "signal-processing"
+    ],
+    "wang2023anti": [
+      "learning-algorithms"
+    ],
+    "yan2023maneuvering": [
+      "tracking"
+    ],
+    "yan2023system": [
+      "signal-processing"
+    ],
+    "zhou2023joint": [
+      "signal-processing"
+    ],
+    "dai2022adaptive": [
+      "tracking"
+    ],
+    "dai2022composed": [
+      "tracking"
+    ],
+    "li2022counterfactual": [
+      "learning-algorithms"
+    ],
+    "li2022neural": [
+      "learning-algorithms"
+    ],
+    "pu2022stochastic": [
+      "optimization"
+    ],
+    "sun2022learning": [
+      "learning-algorithms"
+    ],
+    "yan2022radar": [
+      "tracking"
+    ],
+    "zhang2022iteration": [
+      "optimization"
+    ],
+    "dai2021resource": [
+      "tracking"
+    ],
+    "fan2021probabilistic": [
+      "signal-processing"
+    ],
+    "li2021robust": [
+      "signal-processing"
+    ],
+    "pu2021fiber": [
+      "optimization"
+    ],
+    "song2021supervise": [
+      "learning-algorithms"
+    ],
+    "sun2021learning": [
+      "learning-algorithms"
+    ],
+    "yan2021target": [
+      "tracking"
+    ],
+    "cao2020beam": [
+      "signal-processing"
+    ],
+    "pu2020evaluation": [
+      "signal-processing"
+    ],
+    "yan2020collaborative": [
+      "tracking"
+    ],
+    "yan2020optimal": [
+      "tracking"
+    ],
+    "yan2020quality": [
+      "tracking"
+    ],
+    "lin2019minimax": [
+      "signal-processing"
+    ],
+    "pu2019joint": [
+      "signal-processing"
+    ],
+    "yan2019resource": [
+      "tracking"
+    ],
+    "jiang2018optimal": [
+      "signal-processing"
+    ],
+    "lin2018minimax": [
+      "signal-processing"
+    ],
+    "pu2018alternating": [
+      "signal-processing"
+    ],
+    "pu2018optimal": [
+      "signal-processing"
+    ],
+    "pu2018optimization": [
+      "signal-processing"
+    ],
+    "xiao2018evaluation": [
+      "signal-processing"
+    ],
+    "yan2018robust": [
+      "tracking"
+    ],
+    "hadad2017comparison": [
+      "signal-processing"
+    ],
+    "pu2017penalized": [
+      "signal-processing"
+    ],
+    "pu2017two": [
+      "signal-processing"
+    ],
+    "yan2016decentralized": [
+      "tracking"
+    ],
+    "yan2017cooperative": [
+      "tracking"
+    ],
+    "yan2017exact": [
+      "signal-processing"
+    ],
+    "yan2017joint": [
+      "tracking"
+    ],
+    "junkun2016joint": [
+      "tracking"
+    ],
+    "yan2016benefit": [
+      "tracking"
+    ],
+    "yan2016joint": [
+      "tracking"
+    ]
+  },
+  "corresponding_authors": {
+    "qin2026foundation": [
+      "Wenqiang Pu",
+      "Tsung-Hui Chang"
+    ],
+    "chen2025robust": [
+      "Qingjiang Shi",
+      "Wenqiang Pu"
+    ],
+    "jiao2025heterogeneous": [
+      "Junkun Yan",
+      "Wenqiang Pu"
+    ],
+    "li2025efficient": [
+      "Wenqiang Pu"
+    ],
+    "you2025calibration": [
+      "Wenqiang Pu"
+    ],
+    "zhang2025adaptive": [
+      "Wenqiang Pu"
+    ],
+    "zhao2025can": [
+      "Wenqiang Pu"
+    ],
+    "zhao2025contextual": [
+      "Wenqiang Pu"
+    ],
+    "zhou2025harnessing": [
+      "Wenqiang Pu",
+      "Ming-Yi You"
+    ],
+    "fan2024sensing": [
+      "Bo Jiu",
+      "Wenqiang Pu"
+    ],
+    "jiao2024wideband": [
+      "Junkun Yan",
+      "Wenqiang Pu"
+    ],
+    "liu2024radar": [
+      "Wenqiang Pu"
+    ],
+    "yan2024deployment": [
+      "Lin Ma",
+      "Wenqiang Pu"
+    ],
+    "zhang2024multi": [
+      "Junkun Yan",
+      "Wenqiang Pu"
+    ],
+    "zhou2024matrix": [
+      "Wenqiang Pu"
+    ],
+    "zhou2024robust": [
+      "Wenqiang Pu",
+      "Ming-Yi You"
+    ],
+    "dai2023multi": [
+      "Wenqiang Pu",
+      "Junkun Yan"
+    ],
+    "pu2023penalized": [
+      "Wenqiang Pu"
+    ],
+    "pu2022stochastic": [
+      "Wenqiang Pu"
+    ],
+    "yan2022radar": [
+      "Junkun Yan",
+      "Wenqiang Pu"
+    ],
+    "yan2018robust": [
+      "Wenqiang Pu",
+      "Hongwei Liu"
+    ],
+    "pu2018optimal": [
+      "Zhi-Quan Luo"
+    ],
+    "pu2023efficient": [
+      "Ya-Feng Liu"
+    ],
+    "xu2026radio": [
+      "Xiao Fu"
+    ],
+    "sun2025hybrid": [
+      "Feng Yin"
+    ],
+    "sun2022learning": [
+      "Mingyi Hong"
+    ],
+    "yan2020optimal": [
+      "Shenghua Zhou",
+      "Hongwei Liu"
+    ],
+    "yan2020collaborative": [
+      "Hongwei Liu"
+    ],
+    "yan2019resource": [
+      "Wenqiang Pu"
+    ],
+    "li2022counterfactual": [
+      "Wenqiang Pu"
+    ],
+    "dai2022adaptive": [
+      "Junkun Yan",
+      "Wenqiang Pu"
+    ],
+    "liu2024parameter": [
+      "Wenqiang Pu"
+    ],
+    "li2026optimistic": [
+      "Wenqiang Pu"
+    ],
+    "dong2026romberg": [
+      "Wenqiang Pu"
+    ],
+    "wang2024bounded": [
+      "Bo Jiu"
+    ]
+  }
+}

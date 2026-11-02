@@ -1,0 +1,83 @@
+---
+layout: default
+---
+<div class="about-page">
+  <header class="academic-intro">
+    <div class="academic-intro__copy">
+      <h1 class="academic-intro__name">
+        {% if site.title == 'blank' %}
+          {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+      </h1>
+      <p class="academic-intro__role">{{ page.subtitle }}</p>
+      {% if page.research_focus %}
+        <div class="academic-intro__focus">
+          <span>Research focus</span>
+          <p>{{ page.research_focus }}</p>
+          {% if page.research_interests %}
+            <ul class="academic-intro__interests" aria-label="Research interests">
+              {% for interest in page.research_interests %}
+                <li>{{ interest }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+
+    {% if page.profile %}
+      <aside class="academic-profile" aria-label="Contact information">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) 230px, (min-width: 576px) 28vw, 70vw{% endcapture %}
+          {% include figure.liquid loading="eager" path=profile_image_path class="academic-profile__image" sizes=sizes alt=page.profile.image cache_bust=true %}
+        {% endif %}
+        {% if page.profile.more_info %}
+          <div class="academic-profile__details">{{ page.profile.more_info }}</div>
+        {% endif %}
+      </aside>
+    {% endif %}
+  </header>
+
+  <article class="academic-content">
+    {% if page.research_directions %}
+      <section class="research-directions" aria-labelledby="research-directions-heading">
+        <h2 id="research-directions-heading">Research Directions</h2>
+        <dl class="research-directions__list">
+          {% for direction in page.research_directions %}
+            <div class="research-directions__item">
+              <dt>{{ direction.title }}</dt>
+              <dd>{{ direction.description }}</dd>
+            </div>
+          {% endfor %}
+        </dl>
+      </section>
+    {% endif %}
+
+    <div class="academic-content__primary">{{ content }}</div>
+
+    {% if site.latest_posts.enabled %}
+      <section class="academic-section">
+        <h2><a href="{{ '/blog/' | relative_url }}">Research notes</a></h2>
+        {% include latest_posts.liquid %}
+      </section>
+    {% endif %}
+
+    {% if page.selected_papers %}
+      <section class="academic-section academic-section--publications">
+        <h2><a href="{{ '/publications/' | relative_url }}">{% if site.data.selected_publications.size > 0 %}Selected Publications{% else %}Publications{% endif %}</a></h2>
+        {% include selected_papers.liquid %}
+      </section>
+    {% endif %}
+
+    {% if page.social %}
+      <div class="academic-social" aria-label="External profiles">
+        {% include social.liquid %}
+      </div>
+    {% endif %}
+
+    {% include visitor_map.liquid %}
+  </article>
+</div>

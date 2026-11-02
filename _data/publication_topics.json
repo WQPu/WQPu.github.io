@@ -1,0 +1,2935 @@
+[
+  {
+    "id": "signal-processing",
+    "name": "Signal Processing",
+    "description": "Sensing, estimation, localization, array processing, beamforming, and model-based anti-jamming.",
+    "count": 39,
+    "years": [
+      {
+        "year": "2026",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "chen2026distributed",
+                "id": "chen2026distributed-journal-articles",
+                "title": "A Distributed Beamforming Approach to Robust Anti-Drone Jamming",
+                "authors": [
+                  "Zhixing Chen",
+                  "Wenqiang Pu",
+                  "Xinzhi Ning",
+                  "Fan Xu",
+                  "Qingjiang Shi"
+                ],
+                "venue": "IEEE Transactions on Mobile Computing",
+                "abbr": "IEEE TMC",
+                "doi": "10.1109/tmc.2026.3740421",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "you2026robust",
+                "id": "you2026robust-journal-articles",
+                "title": "Robust Direct Position Determination with Contaminated Measurements",
+                "authors": [
+                  "Ming-Yi You",
+                  "Xin Guan",
+                  "Wenqiang Pu",
+                  "Rui Zhou",
+                  "Qingjiang Shi"
+                ],
+                "venue": "IEEE Transactions on Signal Processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/tsp.2026.3743837",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          },
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "pan2026data",
+                "id": "pan2026data-conference-papers",
+                "title": "A Data Aware Multi-Bit Quantization Scheme for RF Signal Sensing",
+                "authors": [
+                  "Tianpeng Pan",
+                  "Wenqiang Pu",
+                  "Peng Wang",
+                  "Ming-Yi You",
+                  "Licheng Zhao",
+                  "Rui Zhou"
+                ],
+                "venue": "2026 IEEE 14th Sensor Array and Multichannel Signal Processing Workshop (SAM)",
+                "abbr": "IEEE SAM",
+                "doi": "10.1109/sam68950.2026.11687897",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          },
+          {
+            "name": "Preprints",
+            "items": [
+              {
+                "key": "zhao2026closed",
+                "id": "zhao2026closed-preprints",
+                "title": "Worst-Case and Covariance-Reconstruction Robust Adaptive Beamforming: Equivalence and Closed-Form Solution",
+                "authors": [
+                  "Licheng Zhao",
+                  "Rui Zhou",
+                  "Wenqiang Pu",
+                  "Daniel P. Palomar"
+                ],
+                "venue": "arXiv preprint arXiv:2603.09300",
+                "abbr": "arXiv",
+                "doi": "",
+                "url": "https://arxiv.org/abs/2603.09300",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "you2025calibration",
+                "id": "you2025calibration-journal-articles",
+                "title": "Calibration Signal-assisted Emitter Localization Under Sensor Position Uncertainty",
+                "authors": [
+                  "Ming-Yi You",
+                  "Wenqiang Pu",
+                  "Rui Zhou",
+                  "Yun-Xia Ye",
+                  "Minrui Xiao",
+                  "Wei Wang",
+                  "Qingjiang Shi"
+                ],
+                "venue": "IEEE Transactions on Aerospace and Electronic Systems",
+                "abbr": "IEEE TAES",
+                "doi": "10.1109/taes.2025.3532247",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": [
+                  "Wenqiang Pu"
+                ]
+              },
+              {
+                "key": "zhao2025contextual",
+                "id": "zhao2025contextual-journal-articles",
+                "title": "Contextual Direct Position Determination for Path Loss Informed Localization",
+                "authors": [
+                  "Licheng Zhao",
+                  "Wenqiang Pu",
+                  "Rui Zhou",
+                  "Ming-Yi You",
+                  "Qingjiang Shi"
+                ],
+                "venue": "IEEE Signal Processing Letters",
+                "abbr": "IEEE SPL",
+                "doi": "10.1109/lsp.2025.3550047",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": [
+                  "Wenqiang Pu"
+                ]
+              },
+              {
+                "key": "zhao2025can",
+                "id": "zhao2025can-journal-articles",
+                "title": "Can DOA Algorithms Be Deceived?",
+                "authors": [
+                  "Licheng Zhao",
+                  "Rui Zhou",
+                  "Ming-Yi You",
+                  "Wenqiang Pu"
+                ],
+                "venue": "IEEE Signal Processing Letters",
+                "abbr": "IEEE SPL",
+                "doi": "10.1109/lsp.2025.3576679",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": [
+                  "Wenqiang Pu"
+                ]
+              },
+              {
+                "key": "chen2025robust",
+                "id": "chen2025robust-journal-articles",
+                "title": "Robust Two-tier Beamforming for Distributed Signal Sensing",
+                "authors": [
+                  "Zhixing Chen",
+                  "Wenqiang Pu",
+                  "Licheng Zhao",
+                  "Qingjiang Shi"
+                ],
+                "venue": "IEEE Transactions on Signal Processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/tsp.2025.3590769",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": [
+                  "Qingjiang Shi",
+                  "Wenqiang Pu"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "luo2025efficient",
+                "id": "luo2025efficient-conference-papers",
+                "title": "Efficient and Robust Cooperative Detection for Monotonically Incomplete Data",
+                "authors": [
+                  "Hao Luo",
+                  "Rui Zhou",
+                  "Wenqiang Pu",
+                  "Ya-Feng Liu",
+                  "Tsung-Hui Chang"
+                ],
+                "venue": "2025 44th Chinese Control Conference (CCC)",
+                "abbr": "CCC",
+                "doi": "10.23919/ccc64809.2025.11178683",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "wang2024backward",
+                "id": "wang2024backward-journal-articles",
+                "title": "Backward and Sequential Inductions for Antijamming Equilibrium Strategy Generation of Frequency Agile Radar",
+                "authors": [
+                  "Chao Wang",
+                  "Bo Jiu",
+                  "Wenqiang Pu",
+                  "Kang Li",
+                  "Yu Zhao",
+                  "Hongwei Liu"
+                ],
+                "venue": "IEEE Transactions on Aerospace and Electronic Systems",
+                "abbr": "IEEE TAES",
+                "doi": "10.1109/taes.2024.3383414",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "zhou2024joint",
+                "id": "zhou2024joint-journal-articles",
+                "title": "Joint Optimization of UAV Deployment and Directional Antenna Orientation for multi-UAV Cooperative Sensing System",
+                "authors": [
+                  "Lingyun Zhou",
+                  "Wenqiang Pu",
+                  "Yixin Jiang",
+                  "Ming-Yi You",
+                  "Rongqing Zhang",
+                  "Qingjiang Shi"
+                ],
+                "venue": "IEEE Transactions on Wireless Communications",
+                "abbr": "IEEE TWC",
+                "doi": "10.1109/twc.2024.3407837",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "zhou2024matrix",
+                "id": "zhou2024matrix-journal-articles",
+                "title": "A Matrix-factorization-error-ratio Approach to Cooperative Sensing in Non-ideal Communication Environment",
+                "authors": [
+                  "Rui Zhou",
+                  "Wenqiang Pu",
+                  "Licheng Zhao",
+                  "Ming-Yi You",
+                  "Qingjiang Shi",
+                  "Sergios Theodoridis"
+                ],
+                "venue": "IEEE Transactions on Signal Processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/tsp.2024.3443291",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": [
+                  "Wenqiang Pu"
+                ]
+              },
+              {
+                "key": "zhou2024robust",
+                "id": "zhou2024robust-journal-articles",
+                "title": "A Robust Cooperative Sensing Approach for Incomplete and Contaminated Data",
+                "authors": [
+                  "Rui Zhou",
+                  "Wenqiang Pu",
+                  "Ming-Yi You",
+                  "Qingjiang Shi"
+                ],
+                "venue": "IEEE Transactions on Signal Processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/tsp.2024.3448498",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": [
+                  "Wenqiang Pu",
+                  "Ming-Yi You"
+                ]
+              },
+              {
+                "key": "wu2024clutter",
+                "id": "wu2024clutter-journal-articles",
+                "title": "Clutter-Sensing-Driven Space-Time Adaptive Processing Approach for Airborne Sub-Array-Level Digital Array",
+                "authors": [
+                  "Youai Wu",
+                  "Bo Jiu",
+                  "Wenqiang Pu",
+                  "Hao Zheng",
+                  "Kang Li",
+                  "Hongwei Liu"
+                ],
+                "venue": "Remote Sensing",
+                "abbr": "Remote Sens.",
+                "doi": "10.3390/rs16234401",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          },
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "guan2024robust",
+                "id": "guan2024robust-conference-papers",
+                "title": "A Robust GLRT Detector Against Missing Data in Cooperative Sensing",
+                "authors": [
+                  "Jinghui Guan",
+                  "Rui Zhou",
+                  "Wenqiang Pu",
+                  "Qingjiang Shi",
+                  "Tsung-Hui Chang"
+                ],
+                "venue": "2024 IEEE International Conference on Acoustics, Speech and Signal Processing",
+                "abbr": "IEEE ICASSP",
+                "doi": "10.1109/icassp48485.2024.10446583",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "zhou2024cooperative",
+                "id": "zhou2024cooperative-conference-papers",
+                "title": "Cooperative Sensing via Matrix Factorization of the Partially Received Sample Covariance Matrix",
+                "authors": [
+                  "Rui Zhou",
+                  "Wenqiang Pu",
+                  "Licheng Zhao",
+                  "Ming-Yi You",
+                  "Qingjiang Shi",
+                  "Sergios Theodoridis"
+                ],
+                "venue": "2024 IEEE International Conference on Acoustics, Speech and Signal Processing",
+                "abbr": "IEEE ICASSP",
+                "doi": "10.1109/icassp48485.2024.10447994",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "wang2024bounded",
+                "id": "wang2024bounded-conference-papers",
+                "title": "Bounded Rationality-Based Anti-Jamming Strategy Generation for Frequency Agile Radar",
+                "authors": [
+                  "Chao Wang",
+                  "Bo Jiu",
+                  "Wenqiang Pu",
+                  "Kang Li",
+                  "Youai Wu",
+                  "Hongwei Liu"
+                ],
+                "venue": "2024 7th International Conference on Information Communication and Signal Processing (ICICSP)",
+                "abbr": "ICICSP",
+                "doi": "10.1109/icicsp62589.2024.10809186",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": [
+                  "Bo Jiu"
+                ]
+              },
+              {
+                "key": "zhang2024efficient",
+                "id": "zhang2024efficient-conference-papers",
+                "title": "Efficient Position Determination Using Low-Rank Matrix Completion",
+                "authors": [
+                  "Zehui Zhang",
+                  "Wenqiang Pu",
+                  "Rui Zhou",
+                  "Mingyi You",
+                  "Wei Wang",
+                  "Junkun Yan"
+                ],
+                "venue": "2024 IEEE International Conference on Signal, Information and Data Processing (ICSIDP)",
+                "abbr": "ICSIDP",
+                "doi": "10.1109/icsidp62679.2024.10868130",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "pu2023efficient",
+                "id": "pu2023efficient-journal-articles",
+                "title": "Efficient Estimation of Sensor Biases for the 3-D Asynchronous Multi-sensor System",
+                "authors": [
+                  "Wenqiang Pu",
+                  "Ya-Feng Liu",
+                  "Zhi-Quan Luo"
+                ],
+                "venue": "IEEE Transactions on Signal Processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/tsp.2023.3289706",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": [
+                  "Ya-Feng Liu"
+                ]
+              },
+              {
+                "key": "yan2023system",
+                "id": "yan2023system-journal-articles",
+                "title": "System Error Estimation for Sensor Network with Integrated Sensing and Communication Application",
+                "authors": [
+                  "Junkun Yan",
+                  "Ruiyang Zhai",
+                  "Tihua Yan",
+                  "Wenqiang Pu",
+                  "Jiajin Luo",
+                  "Hongwei Liu"
+                ],
+                "venue": "Signal Processing",
+                "abbr": "Signal Process.",
+                "doi": "10.1016/j.sigpro.2023.109200",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "pu2023penalized",
+                "id": "pu2023penalized-journal-articles",
+                "title": "A Penalized Inequality-constrained Approach for Robust Beamforming with DoF Limitation",
+                "authors": [
+                  "Wenqiang Pu",
+                  "Jinjun Xiao",
+                  "Tao Zhang",
+                  "Zhi-Quan Luo"
+                ],
+                "venue": "Signal Processing",
+                "abbr": "Signal Process.",
+                "doi": "10.1016/j.sigpro.2022.108746",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": [
+                  "Wenqiang Pu"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "zhou2023joint",
+                "id": "zhou2023joint-conference-papers",
+                "title": "Joint Optimization of UAV Deployment and Directional Antenna Orientation for multi-UAV Cooperative Sensing",
+                "authors": [
+                  "Lingyun Zhou",
+                  "Wenqiang Pu",
+                  "Ming-yi You",
+                  "Rongqing Zhang",
+                  "Qingjiang Shi"
+                ],
+                "venue": "2023 IEEE Wireless Communications and Networking Conference (WCNC)",
+                "abbr": "IEEE WCNC",
+                "doi": "10.1109/wcnc55385.2023.10118837",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "liu2023weak",
+                "id": "liu2023weak-conference-papers",
+                "title": "Weak Signal Detection Based on Beta Divergence",
+                "authors": [
+                  "Jiahao Liu",
+                  "Haoxuan Liu",
+                  "Wenqiang Pu",
+                  "Rui Zhou",
+                  "Ming-Yi You",
+                  "Qingjiang Shi"
+                ],
+                "venue": "2023 IEEE 24th International Workshop on Signal Processing Advances in Wireless Communications (SPAWC)",
+                "abbr": "IEEE SPAWC",
+                "doi": "10.1109/spawc53906.2023.10304532",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2021",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "li2021robust",
+                "id": "li2021robust-journal-articles",
+                "title": "Robust Antijamming Strategy Design for Frequency-agile Radar Against Main Lobe Jamming",
+                "authors": [
+                  "Kang Li",
+                  "Bo Jiu",
+                  "Hongwei Liu",
+                  "Wenqiang Pu"
+                ],
+                "venue": "Remote Sensing",
+                "abbr": "Remote Sens.",
+                "doi": "10.3390/rs13153043",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          },
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "fan2021probabilistic",
+                "id": "fan2021probabilistic-conference-papers",
+                "title": "A Probabilistic Jamming Strategy Model for Frequency Agility Radar Anti-jamming Problem",
+                "authors": [
+                  "Youlin Fan",
+                  "Bo Jiu",
+                  "Wenqiang Pu",
+                  "Kang Li",
+                  "Hailin Li",
+                  "Hongwei Liu"
+                ],
+                "venue": "2021 CIE International Conference on Radar (Radar)",
+                "abbr": "Radar",
+                "doi": "10.1109/radar53847.2021.10027914",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2020",
+        "groups": [
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "pu2020evaluation",
+                "id": "pu2020evaluation-conference-papers",
+                "title": "Evaluation of Joint Auditory Attention Decoding and Adaptive Binaural Beamforming Approach for Hearing Devices with Attention Switching",
+                "authors": [
+                  "Wenqiang Pu",
+                  "Peng Zan",
+                  "Jinjun Xiao",
+                  "Tao Zhang",
+                  "Zhi-Quan Luo"
+                ],
+                "venue": "2020 IEEE International Conference on Acoustics, Speech and Signal Processing",
+                "abbr": "IEEE ICASSP",
+                "doi": "10.1109/icassp40776.2020.9054592",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "cao2020beam",
+                "id": "cao2020beam-conference-papers",
+                "title": "Beam Pattern Synthesis for Conformal Array with Sidelobe and Polarization Control: A Penalized Inequality Approach",
+                "authors": [
+                  "Tianyu Cao",
+                  "Wenqiang Pu",
+                  "Pengyu Zhang",
+                  "Zhi-Quan Luo"
+                ],
+                "venue": "2020 IEEE 11th Sensor Array and Multichannel Signal Processing Workshop (SAM)",
+                "abbr": "IEEE SAM",
+                "doi": "10.1109/sam48682.2020.9104390",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2019",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "lin2019minimax",
+                "id": "lin2019minimax-journal-articles",
+                "title": "Minimax Design of Constant Modulus MIMO Waveforms for Active Sensing",
+                "authors": [
+                  "Zhen Lin",
+                  "Wenqiang Pu",
+                  "Zhi-Quan Luo"
+                ],
+                "venue": "IEEE Signal Processing Letters",
+                "abbr": "IEEE SPL",
+                "doi": "10.1109/lsp.2019.2926020",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          },
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "pu2019joint",
+                "id": "pu2019joint-conference-papers",
+                "title": "A Joint Auditory Attention Decoding and Adaptive Binaural Beamforming Algorithm for Hearing Devices",
+                "authors": [
+                  "Wenqiang Pu",
+                  "Jinjun Xiao",
+                  "Tao Zhang",
+                  "Zhi-Quan Luo"
+                ],
+                "venue": "2019 IEEE International Conference on Acoustics, Speech and Signal Processing",
+                "abbr": "IEEE ICASSP",
+                "doi": "10.1109/icassp.2019.8682514",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2018",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "pu2018optimal",
+                "id": "pu2018optimal-journal-articles",
+                "title": "Optimal Estimation of Sensor Biases for Asynchronous Multi-sensor Data Fusion",
+                "authors": [
+                  "Wenqiang Pu",
+                  "Ya-Feng Liu",
+                  "Junkun Yan",
+                  "Hongwei Liu",
+                  "Zhi-Quan Luo"
+                ],
+                "venue": "Mathematical Programming",
+                "abbr": "Math. Program.",
+                "doi": "10.1007/s10107-018-1304-2",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": [
+                  "Zhi-Quan Luo"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "pu2018alternating",
+                "id": "pu2018alternating-conference-papers",
+                "title": "An Alternating Minimization Approach to Optimizing Subarray Configuration for a Large Phased Array",
+                "authors": [
+                  "Wenqiang Pu",
+                  "Yang Yu",
+                  "Shuhua Yu",
+                  "Zhi-Quan Luo"
+                ],
+                "venue": "2018 IEEE 10th Sensor Array and Multichannel Signal Processing Workshop (SAM)",
+                "abbr": "IEEE SAM",
+                "doi": "10.1109/sam.2018.8448701",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "lin2018minimax",
+                "id": "lin2018minimax-conference-papers",
+                "title": "Minimax Design of Constant Modulus MIMO Waveforms",
+                "authors": [
+                  "Zhen Lin",
+                  "Wenqiang Pu",
+                  "Zhi-Quan Luo"
+                ],
+                "venue": "2018 52nd Asilomar Conference on Signals, Systems, and Computers",
+                "abbr": "Asilomar",
+                "doi": "10.1109/acssc.2018.8645521",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "jiang2018optimal",
+                "id": "jiang2018optimal-conference-papers",
+                "title": "Optimal Asynchronous Multi-sensor Registration in 3 Dimensions",
+                "authors": [
+                  "Shunan Jiang",
+                  "Wenqiang Pu",
+                  "Zhi-Quan Luo"
+                ],
+                "venue": "2018 IEEE Global Conference on Signal and Information Processing (GlobalSIP)",
+                "abbr": "IEEE GlobalSIP",
+                "doi": "10.1109/globalsip.2018.8646342",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "xiao2018evaluation",
+                "id": "xiao2018evaluation-conference-papers",
+                "title": "Evaluation of the Penalized Inequality Constrained Minimum Variance Beamformer for Hearing Aids",
+                "authors": [
+                  "Jinjun Xiao",
+                  "Wenqiang Pu",
+                  "Zhi-Quan Luo",
+                  "Tao Zhang"
+                ],
+                "venue": "2018 IEEE International Conference on Acoustics, Speech and Signal Processing",
+                "abbr": "IEEE ICASSP",
+                "doi": "10.1109/icassp.2018.8462539",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          },
+          {
+            "name": "Other Publications",
+            "items": [
+              {
+                "key": "pu2018optimization",
+                "id": "pu2018optimization-other-publications",
+                "title": "An optimization model for electroencephalography-assisted binaural beamforming",
+                "authors": [
+                  "Wenqiang Pu",
+                  "Jinjun Xiao",
+                  "Tao Zhang",
+                  "Zhi-Quan Luo"
+                ],
+                "venue": "The Journal of the Acoustical Society of America",
+                "abbr": "JASA Abstract",
+                "doi": "10.1121/1.5035694",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2017",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "yan2017exact",
+                "id": "yan2017exact-journal-articles",
+                "title": "Exact Fisher Information Matrix With State-Dependent Probability of Detection",
+                "authors": [
+                  "Junkun Yan",
+                  "Hongwei Liu",
+                  "Wenqiang Pu",
+                  "Zheng Bao"
+                ],
+                "venue": "IEEE Transactions on Aerospace and Electronic Systems",
+                "abbr": "IEEE TAES",
+                "doi": "10.1109/taes.2017.2667418",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          },
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "pu2017two",
+                "id": "pu2017two-conference-papers",
+                "title": "A two-stage optimization approach to the asynchronous multi-sensor registration problem",
+                "authors": [
+                  "Wenqiang Pu",
+                  "Ya-Feng Liu",
+                  "Junkun Yan",
+                  "Shenghua Zhou",
+                  "Hongwei Liu",
+                  "Zhi-Quan Luo"
+                ],
+                "venue": "2017 IEEE International Conference on Acoustics, Speech and Signal Processing",
+                "abbr": "IEEE ICASSP",
+                "doi": "10.1109/icassp.2017.7952761",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "hadad2017comparison",
+                "id": "hadad2017comparison-conference-papers",
+                "title": "Comparison of two binaural beamforming approaches for hearing aids",
+                "authors": [
+                  "Elior Hadad",
+                  "Daniel Marquardt",
+                  "Wenqiang Pu",
+                  "Sharon Gannot",
+                  "Simon Doclo",
+                  "Zhi-Quan Luo",
+                  "Ivo Merks",
+                  "Tao Zhang"
+                ],
+                "venue": "2017 IEEE International Conference on Acoustics, Speech and Signal Processing",
+                "abbr": "IEEE ICASSP",
+                "doi": "10.1109/icassp.2017.7952153",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "pu2017penalized",
+                "id": "pu2017penalized-conference-papers",
+                "title": "A penalized inequality-constrained minimum variance beamformer with applications in hearing aids",
+                "authors": [
+                  "Wenqiang Pu",
+                  "Jinjun Xiao",
+                  "Tao Zhang",
+                  "Zhi-Quan Luo"
+                ],
+                "venue": "2017 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)",
+                "abbr": "IEEE WASPAA",
+                "doi": "10.1109/waspaa.2017.8170018",
+                "url": "",
+                "topics": [
+                  "signal-processing"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "optimization",
+    "name": "Optimization",
+    "description": "General numerical optimization, constrained and nonconvex algorithms, tensor optimization, and zeroth-order methods.",
+    "count": 10,
+    "years": [
+      {
+        "year": "2026",
+        "groups": [
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "dong2026romberg",
+                "id": "dong2026romberg-conference-papers",
+                "title": "Romberg-Extrapolated Zeroth-Order Gradient Estimator: Higher-Order Bias Reduction with Preserved Leading Directional Variance",
+                "authors": [
+                  "Hongcheng Dong",
+                  "Wenqiang Pu",
+                  "Licheng Zhao",
+                  "Rui Zhou",
+                  "Feng Yin"
+                ],
+                "venue": "Proceedings of the 43rd International Conference on Machine Learning",
+                "abbr": "ICML",
+                "doi": "",
+                "url": "https://proceedings.mlr.press/v306/dong26j.html",
+                "topics": [
+                  "optimization"
+                ],
+                "corresponding_authors": [
+                  "Wenqiang Pu"
+                ]
+              },
+              {
+                "key": "zhao2026parallel",
+                "id": "zhao2026parallel-conference-papers",
+                "title": "Parallel Successive Optimization for Unimodular Fractional Quadratic Programming",
+                "authors": [
+                  "Licheng Zhao",
+                  "Rui Zhou",
+                  "Wenqiang Pu"
+                ],
+                "venue": "2026 IEEE 14th Sensor Array and Multichannel Signal Processing Workshop (SAM)",
+                "abbr": "IEEE SAM",
+                "doi": "10.1109/sam68950.2026.11687934",
+                "url": "",
+                "topics": [
+                  "optimization"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "groups": [
+          {
+            "name": "Preprints",
+            "items": [
+              {
+                "key": "zhao2025efficient",
+                "id": "zhao2025efficient-preprints",
+                "title": "An Efficient and Globally Optimal Algorithm for Nonconvex QCQP with One Equality Constraint",
+                "authors": [
+                  "Licheng Zhao",
+                  "Rui Zhou",
+                  "Wenqiang Pu"
+                ],
+                "venue": "arXiv preprint arXiv:2506.03692",
+                "abbr": "arXiv",
+                "doi": "",
+                "url": "https://arxiv.org/abs/2506.03692",
+                "topics": [
+                  "optimization"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "zhao2024third",
+                "id": "zhao2024third-journal-articles",
+                "title": "A Third-Order Majorization Algorithm for Logistic Regression with Convergence Rate Guarantees",
+                "authors": [
+                  "Licheng Zhao",
+                  "Wenqiang Pu",
+                  "Rui Zhou",
+                  "Qingjiang Shi"
+                ],
+                "venue": "IEEE Signal Processing Letters",
+                "abbr": "IEEE SPL",
+                "doi": "10.1109/lsp.2024.3413306",
+                "url": "",
+                "topics": [
+                  "optimization"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          },
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "xu2024efficient",
+                "id": "xu2024efficient-conference-papers",
+                "title": "An Efficient Alternating Riemannian/projected Gradient Descent Ascent Algorithm for Fair Principal Component Analysis",
+                "authors": [
+                  "Meng Xu",
+                  "Bo Jiang",
+                  "Wenqiang Pu",
+                  "Ya-Feng Liu",
+                  "Anthony Man-Cho So"
+                ],
+                "venue": "2024 IEEE International Conference on Acoustics, Speech and Signal Processing",
+                "abbr": "IEEE ICASSP",
+                "doi": "10.1109/icassp48485.2024.10447172",
+                "url": "",
+                "topics": [
+                  "optimization"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "pu2024smoothed",
+                "id": "pu2024smoothed-conference-papers",
+                "title": "A Smoothed Bregman Proximal Gradient Algorithm for Decentralized Nonconvex Optimization",
+                "authors": [
+                  "Wenqiang Pu",
+                  "Jiawei Zhang",
+                  "Rui Zhou",
+                  "Xiao Fu",
+                  "Mingyi Hong"
+                ],
+                "venue": "2024 IEEE International Conference on Acoustics, Speech and Signal Processing",
+                "abbr": "IEEE ICASSP",
+                "doi": "10.1109/icassp48485.2024.10448285",
+                "url": "",
+                "topics": [
+                  "optimization"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          },
+          {
+            "name": "Preprints",
+            "items": [
+              {
+                "key": "pu2024smoothed",
+                "id": "pu2024smoothed-preprints",
+                "title": "Smoothed Proximal Lagrangian Method for Nonlinear Constrained Programs",
+                "authors": [
+                  "Wenqiang Pu",
+                  "Kaizhao Sun",
+                  "Jiawei Zhang"
+                ],
+                "venue": "arXiv preprint arXiv:2408.15047",
+                "abbr": "arXiv",
+                "doi": "",
+                "url": "https://arxiv.org/abs/2408.15047",
+                "topics": [
+                  "optimization"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "pu2022stochastic",
+                "id": "pu2022stochastic-journal-articles",
+                "title": "Stochastic Mirror Descent for Low-rank Tensor Decomposition Under Non-euclidean Losses",
+                "authors": [
+                  "Wenqiang Pu",
+                  "Shahana Ibrahim",
+                  "Xiao Fu",
+                  "Mingyi Hong"
+                ],
+                "venue": "IEEE Transactions on Signal Processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/tsp.2022.3163896",
+                "url": "",
+                "topics": [
+                  "optimization"
+                ],
+                "corresponding_authors": [
+                  "Wenqiang Pu"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Preprints",
+            "items": [
+              {
+                "key": "zhang2022iteration",
+                "id": "zhang2022iteration-preprints",
+                "title": "On the Iteration Complexity of Smoothed Proximal ALM for Nonconvex Optimization Problem with Convex Constraints",
+                "authors": [
+                  "Jiawei Zhang",
+                  "Wenqiang Pu",
+                  "Zhi-Quan Luo"
+                ],
+                "venue": "arXiv preprint arXiv:2207.06304",
+                "abbr": "arXiv",
+                "doi": "",
+                "url": "https://arxiv.org/abs/2207.06304",
+                "topics": [
+                  "optimization"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2021",
+        "groups": [
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "pu2021fiber",
+                "id": "pu2021fiber-conference-papers",
+                "title": "Fiber-sampled Stochastic Mirror Descent for Tensor Decomposition with $\\beta$-divergence",
+                "authors": [
+                  "Wenqiang Pu",
+                  "Shahana Ibrahim",
+                  "Xiao Fu",
+                  "Mingyi Hong"
+                ],
+                "venue": "2021 IEEE International Conference on Acoustics, Speech and Signal Processing",
+                "abbr": "IEEE ICASSP",
+                "doi": "10.1109/icassp39728.2021.9413830",
+                "url": "",
+                "topics": [
+                  "optimization"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "learning-algorithms",
+    "name": "Learning Algorithms",
+    "description": "Online and reinforcement learning, imitation learning, neural and probabilistic models, and learning-based decision algorithms.",
+    "count": 26,
+    "years": [
+      {
+        "year": "2026",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "li2026optimistic",
+                "id": "li2026optimistic-journal-articles",
+                "title": "Optimistic Thompson Sampling for No-Regret Learning in Unknown Games",
+                "authors": [
+                  "Yingru Li",
+                  "Liangqi Liu",
+                  "Wenqiang Pu",
+                  "Hao Liang",
+                  "Zhi-Quan Luo"
+                ],
+                "venue": "IEEE Transactions on Signal Processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/TSP.2026.3695892",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": [
+                  "Wenqiang Pu"
+                ]
+              },
+              {
+                "key": "zhang2026collaborative",
+                "id": "zhang2026collaborative-journal-articles",
+                "title": "Collaborative Strategy Learning Based Transmit Resource Management Scheme for Multiple Target Tracking in Multi-cooperative Jamming Environment",
+                "authors": [
+                  "Peng Zhang",
+                  "Junkun Yan",
+                  "Wenqiang Pu",
+                  "Hao Jiao",
+                  "Hongwei Liu",
+                  "Maria S Greco"
+                ],
+                "venue": "IEEE Transactions on Signal Processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/tsp.2026.3693184",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          },
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "wang2026uncertainty",
+                "id": "wang2026uncertainty-conference-papers",
+                "title": "Uncertainty-Aware Wireless Localization with Diffusion Models",
+                "authors": [
+                  "Juntao Wang",
+                  "Mengyuan Li",
+                  "Feng Yin",
+                  "Wenqiang Pu"
+                ],
+                "venue": "2026 IEEE International Conference on Acoustics, Speech and Signal Processing",
+                "abbr": "IEEE ICASSP",
+                "doi": "10.1109/icassp55912.2026.11461665",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "zhou2026learning",
+                "id": "zhou2026learning-conference-papers",
+                "title": "Learning Graphical Models Under Low-Rank Factor Analysis Structure",
+                "authors": [
+                  "Rui Zhou",
+                  "Jiaxi Ying",
+                  "Wenqiang Pu",
+                  "Licheng Zhao",
+                  "Wenjie Wang"
+                ],
+                "venue": "2026 IEEE International Conference on Acoustics, Speech and Signal Processing",
+                "abbr": "IEEE ICASSP",
+                "doi": "10.1109/icassp55912.2026.11463936",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "dong2026deep",
+                "id": "dong2026deep-conference-papers",
+                "title": "Deep Tensor Completion for Fast Direct Position Determination",
+                "authors": [
+                  "Hongcheng Dong",
+                  "Wenqiang Pu",
+                  "Rui Zhou",
+                  "Feng Yin",
+                  "Xiao Fu"
+                ],
+                "venue": "2026 IEEE International Conference on Acoustics, Speech and Signal Processing",
+                "abbr": "IEEE ICASSP",
+                "doi": "10.1109/icassp55912.2026.11462366",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "li2026mimomamba",
+                "id": "li2026mimomamba-conference-papers",
+                "title": "MIMOMamba: From Scalar Duality to Matrix-Valued Attention",
+                "authors": [
+                  "Yanbo Li",
+                  "Richard Cornelius Suwandi",
+                  "Feng Yin",
+                  "Yiyong Sun",
+                  "Wei Huang",
+                  "Wenqiang Pu"
+                ],
+                "venue": "Proceedings of the 43rd International Conference on Machine Learning",
+                "abbr": "ICML",
+                "doi": "",
+                "url": "https://proceedings.mlr.press/v306/li26ft.html",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "chen2026learning",
+                "id": "chen2026learning-conference-papers",
+                "title": "Learning to Sense: Uncertainty-Aware Active Sensing for Ocean Physical Fields via Bayesian Tensor Completion",
+                "authors": [
+                  "Zhongtao Chen",
+                  "Bingyang Cheng",
+                  "Wenqiang Pu",
+                  "Lei Cheng",
+                  "Yik-Chung Wu"
+                ],
+                "venue": "2026 IEEE 14th Sensor Array and Multichannel Signal Processing Workshop (SAM)",
+                "abbr": "IEEE SAM",
+                "doi": "10.1109/sam68950.2026.11688024",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "guo2026performance",
+                "id": "guo2026performance-conference-papers",
+                "title": "Performance Prediction for Passive Localization Using Conditional Normalizing Flows",
+                "authors": [
+                  "Hanyue Guo",
+                  "Rui Zhou",
+                  "Wenqiang Pu",
+                  "Licheng Zhao",
+                  "Ming-Yi You",
+                  "JunKun Yan"
+                ],
+                "venue": "2026 IEEE 14th Sensor Array and Multichannel Signal Processing Workshop (SAM)",
+                "abbr": "IEEE SAM",
+                "doi": "10.1109/sam68950.2026.11687908",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          },
+          {
+            "name": "Preprints",
+            "items": [
+              {
+                "key": "liu2026learning",
+                "id": "liu2026learning-preprints",
+                "title": "Learning an Opponent-aware Anti-jamming Strategy via Online Convex Optimization",
+                "authors": [
+                  "Liangqi Liu",
+                  "Wenqiang Pu",
+                  "Yingru Li",
+                  "Zhi-Quan Luo"
+                ],
+                "venue": "arXiv preprint arXiv:2604.11016",
+                "abbr": "arXiv",
+                "doi": "",
+                "url": "https://arxiv.org/abs/2604.11016",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "sun2025hybrid",
+                "id": "sun2025hybrid-journal-articles",
+                "title": "Hybrid Data-driven SSM for Interpretable and Label-free Mmwave Channel Prediction",
+                "authors": [
+                  "Yiyong Sun",
+                  "Jiajun He",
+                  "Zhidi Lin",
+                  "Wenqiang Pu",
+                  "Feng Yin",
+                  "Hing Cheung So"
+                ],
+                "venue": "IEEE Transactions on Mobile Computing",
+                "abbr": "IEEE TMC",
+                "doi": "10.1109/tmc.2025.3564260",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": [
+                  "Feng Yin"
+                ]
+              },
+              {
+                "key": "zhou2025harnessing",
+                "id": "zhou2025harnessing-journal-articles",
+                "title": "Harnessing Monotonic Neural Networks for Performance Prediction and Threshold Determination in Multichannel Detection",
+                "authors": [
+                  "Rui Zhou",
+                  "Wenqiang Pu",
+                  "Ming-Yi You",
+                  "Qingjiang Shi"
+                ],
+                "venue": "IEEE Transactions on Signal Processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/tsp.2025.3567761",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": [
+                  "Wenqiang Pu",
+                  "Ming-Yi You"
+                ]
+              },
+              {
+                "key": "zhang2025learning",
+                "id": "zhang2025learning-journal-articles",
+                "title": "Learning Based Transmit Resource Management Scheme for Multiple Target Tracking with Active Jamming Mitigation",
+                "authors": [
+                  "Peng Zhang",
+                  "Junkun Yan",
+                  "Wenqiang Pu",
+                  "Kang Li",
+                  "Hongwei Liu",
+                  "Maria S Greco"
+                ],
+                "venue": "IEEE Transactions on Aerospace and Electronic Systems",
+                "abbr": "IEEE TAES",
+                "doi": "10.1109/taes.2025.3591095",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          },
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "guo2025using",
+                "id": "guo2025using-conference-papers",
+                "title": "Using Monotonic Neural Networks for Accurate and Efficient Passive Localization Performance Modeling",
+                "authors": [
+                  "Hanyue Guo",
+                  "Rui Zhou",
+                  "Wenqiang Pu",
+                  "Ming-Yi You",
+                  "JunKun Yan"
+                ],
+                "venue": "2025 IEEE Wireless Communications and Networking Conference (WCNC)",
+                "abbr": "IEEE WCNC",
+                "doi": "10.1109/wcnc61545.2025.10978599",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "zhang2025adaptive",
+                "id": "zhang2025adaptive-conference-papers",
+                "title": "Adaptive Sampling for Online UAV-Aided Radio Map Sensing",
+                "authors": [
+                  "Na Zhang",
+                  "Rui Zhou",
+                  "Ming-Yi You",
+                  "Wenqiang Pu"
+                ],
+                "venue": "2025 33rd European Signal Processing Conference (EUSIPCO)",
+                "abbr": "EUSIPCO",
+                "doi": "10.23919/eusipco63237.2025.11226752",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": [
+                  "Wenqiang Pu"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "li2024knowledge",
+                "id": "li2024knowledge-journal-articles",
+                "title": "Knowledge-aided Model-based Reinforcement Learning for Anti-jamming Strategy Learning",
+                "authors": [
+                  "Kang Li",
+                  "Hongwei Liu",
+                  "Bo Jiu",
+                  "Wenqiang Pu",
+                  "Xiaojun Peng",
+                  "Junkun Yan"
+                ],
+                "venue": "IEEE Transactions on Aerospace and Electronic Systems",
+                "abbr": "IEEE TAES",
+                "doi": "10.1109/taes.2024.3358779",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "fan2024sensing",
+                "id": "fan2024sensing-journal-articles",
+                "title": "Sensing Jamming Strategy from Limited Observations: An Imitation Learning Perspective",
+                "authors": [
+                  "Youlin Fan",
+                  "Bo Jiu",
+                  "Wenqiang Pu",
+                  "Ziniu Li",
+                  "Kang Li",
+                  "Hongwei Liu"
+                ],
+                "venue": "IEEE Transactions on Signal Processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/tsp.2024.3443121",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": [
+                  "Bo Jiu",
+                  "Wenqiang Pu"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "liu2024radar",
+                "id": "liu2024radar-conference-papers",
+                "title": "Radar Anti-jamming Strategy Learning via Domain-knowledge Enhanced Online Convex Optimization",
+                "authors": [
+                  "Liangqi Liu",
+                  "Wenqiang Pu",
+                  "Yingru Li",
+                  "Bo Jiu",
+                  "Zhi-Quan Luo"
+                ],
+                "venue": "2024 IEEE 13rd Sensor Array and Multichannel Signal Processing Workshop (SAM)",
+                "abbr": "IEEE SAM",
+                "doi": "10.1109/sam60225.2024.10636607",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": [
+                  "Wenqiang Pu"
+                ]
+              },
+              {
+                "key": "liu2024parameter",
+                "id": "liu2024parameter-conference-papers",
+                "title": "Parameter-Efficient Transformer Network for Radar Anti-Jamming Strategy Design",
+                "authors": [
+                  "Liangqi Liu",
+                  "Tianpeng Pan",
+                  "Wenqiang Pu",
+                  "Bo Jiu",
+                  "Junkun Yan"
+                ],
+                "venue": "2024 International Conference on Ubiquitous Communication (Ucom)",
+                "abbr": "Ucom",
+                "doi": "10.1109/ucom62433.2024.10695927",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": [
+                  "Wenqiang Pu"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "groups": [
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "wang2023anti",
+                "id": "wang2023anti-conference-papers",
+                "title": "Anti-jamming Equilibrium Strategy Learning of Frequency Agile Radar Based on Monte Carlo Tree Search",
+                "authors": [
+                  "Chao Wang",
+                  "Bo Jiu",
+                  "Wenqiang Pu",
+                  "Kang Li",
+                  "Yu Zhao",
+                  "Hongwei Liu"
+                ],
+                "venue": "2023 IEEE International Radar Conference (RADAR)",
+                "abbr": "IEEE Radar",
+                "doi": "10.1109/radar54928.2023.10371079",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "fan2023inverse",
+                "id": "fan2023inverse-conference-papers",
+                "title": "An Inverse Reinforcement Learning Method to Infer Reward Function of Intelligent Jammer",
+                "authors": [
+                  "Youlin Fan",
+                  "Bo Jiu",
+                  "Wenqiang Pu",
+                  "Kang Li",
+                  "Yu Zhang",
+                  "Hongwei Liu"
+                ],
+                "venue": "2023 IEEE International Radar Conference (RADAR)",
+                "abbr": "IEEE Radar",
+                "doi": "10.1109/radar54928.2023.10371195",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "sun2022learning",
+                "id": "sun2022learning-journal-articles",
+                "title": "Learning to Continuously Optimize Wireless Resource in a Dynamic Environment: A Bilevel Optimization Perspective",
+                "authors": [
+                  "Haoran Sun",
+                  "Wenqiang Pu",
+                  "Xiao Fu",
+                  "Tsung-Hui Chang",
+                  "Mingyi Hong"
+                ],
+                "venue": "IEEE Transactions on Signal Processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/tsp.2022.3143372",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": [
+                  "Mingyi Hong"
+                ]
+              },
+              {
+                "key": "li2022neural",
+                "id": "li2022neural-journal-articles",
+                "title": "Neural Fictitious Self-play for Radar Antijamming Dynamic Game with Imperfect Information",
+                "authors": [
+                  "Kang Li",
+                  "Bo Jiu",
+                  "Wenqiang Pu",
+                  "Hongwei Liu",
+                  "Xiaojun Peng"
+                ],
+                "venue": "IEEE Transactions on Aerospace and Electronic Systems",
+                "abbr": "IEEE TAES",
+                "doi": "10.1109/taes.2022.3175186",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          },
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "li2022counterfactual",
+                "id": "li2022counterfactual-conference-papers",
+                "title": "Counterfactual Regret Minimization for Anti-jamming Game of Frequency Agile Radar",
+                "authors": [
+                  "Huayue Li",
+                  "Zhaowei Han",
+                  "Wenqiang Pu",
+                  "Liangqi Liu",
+                  "Kang Li",
+                  "Bo Jiu"
+                ],
+                "venue": "2022 IEEE 12th Sensor Array and Multichannel Signal Processing Workshop (SAM)",
+                "abbr": "IEEE SAM",
+                "doi": "10.1109/sam53842.2022.9827883",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": [
+                  "Wenqiang Pu"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2021",
+        "groups": [
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "sun2021learning",
+                "id": "sun2021learning-conference-papers",
+                "title": "Learning to Continuously Optimize Wireless Resource in Episodically Dynamic Environment",
+                "authors": [
+                  "Haoran Sun",
+                  "Wenqiang Pu",
+                  "Minghe Zhu",
+                  "Xiao Fu",
+                  "Tsung-Hui Chang",
+                  "Mingyi Hong"
+                ],
+                "venue": "2021 IEEE International Conference on Acoustics, Speech and Signal Processing",
+                "abbr": "IEEE ICASSP",
+                "doi": "10.1109/icassp39728.2021.9413503",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "song2021supervise",
+                "id": "song2021supervise-conference-papers",
+                "title": "To Supervise or Not to Supervise: How to Effectively Learn Wireless Interference Management Models?",
+                "authors": [
+                  "Bingqing Song",
+                  "Haoran Sun",
+                  "Wenqiang Pu",
+                  "Sijia Liu",
+                  "Mingyi Hong"
+                ],
+                "venue": "2021 IEEE 22nd International Workshop on Signal Processing Advances in Wireless Communications (SPAWC)",
+                "abbr": "IEEE SPAWC",
+                "doi": "10.1109/spawc51858.2021.9593184",
+                "url": "",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          },
+          {
+            "name": "Preprints",
+            "items": [
+              {
+                "key": "song2021supervise",
+                "id": "song2021supervise-preprints",
+                "title": "To Supervise or Not: How to Effectively Learn Wireless Interference Management Models?",
+                "authors": [
+                  "Bingqing Song",
+                  "Haoran Sun",
+                  "Wenqiang Pu",
+                  "Sijia Liu",
+                  "Mingyi Hong"
+                ],
+                "venue": "arXiv preprint arXiv:2112.14011",
+                "abbr": "arXiv",
+                "doi": "10.1109/spawc51858.2021.9593184",
+                "url": "https://arxiv.org/abs/2112.14011",
+                "topics": [
+                  "learning-algorithms"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wireless",
+    "name": "Wireless Networks",
+    "description": "Wireless networks, radio maps, channel prediction, communication systems, and network slicing.",
+    "count": 8,
+    "years": [
+      {
+        "year": "2026",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "xu2026radio",
+                "id": "xu2026radio-journal-articles",
+                "title": "Radio Map Estimation via Latent Domain Plug-and-play Denoising",
+                "authors": [
+                  "Le Xu",
+                  "Lei Cheng",
+                  "Junting Chen",
+                  "Wenqiang Pu",
+                  "Xiao Fu"
+                ],
+                "venue": "IEEE Transactions on Signal Processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/tsp.2025.3650699",
+                "url": "",
+                "topics": [
+                  "wireless"
+                ],
+                "corresponding_authors": [
+                  "Xiao Fu"
+                ]
+              },
+              {
+                "key": "yang2026failure",
+                "id": "yang2026failure-journal-articles",
+                "title": "Failure Recovery for Network Slicing in Software-Defined Integrated Satellite-Terrestrial Networks",
+                "authors": [
+                  "Huiting Yang",
+                  "Shengyu Zhang",
+                  "Wei Liu",
+                  "Wenqiang Pu",
+                  "Haibo Zhou",
+                  "Zan Li",
+                  "Tony QS Quek"
+                ],
+                "venue": "IEEE Transactions on Mobile Computing",
+                "abbr": "IEEE TMC",
+                "doi": "10.1109/tmc.2026.3708374",
+                "url": "",
+                "topics": [
+                  "wireless"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          },
+          {
+            "name": "Preprints",
+            "items": [
+              {
+                "key": "qin2026foundation",
+                "id": "qin2026foundation-preprints",
+                "title": "A Foundation Model for Large-Scale Wireless Network Planning, Operation and Optimization",
+                "authors": [
+                  "Xinyu Qin",
+                  "Wenqiang Pu",
+                  "Hongcheng Dong",
+                  "Bingsheng Peng",
+                  "Ye Xue",
+                  "Linzhi Shen",
+                  "Qi Yan",
+                  "Tsung-Hui Chang",
+                  "Zhi-Quan Luo"
+                ],
+                "venue": "arXiv preprint arXiv:2609.08482",
+                "abbr": "arXiv",
+                "doi": "",
+                "url": "https://arxiv.org/abs/2609.08482",
+                "topics": [
+                  "wireless"
+                ],
+                "corresponding_authors": [
+                  "Wenqiang Pu",
+                  "Tsung-Hui Chang"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "li2025efficient",
+                "id": "li2025efficient-journal-articles",
+                "title": "Efficient Beamforming Refinement for Limited Feedback FDD Massive MIMO: An Online Alternating Exploration-Estimation Approach",
+                "authors": [
+                  "Kai Li",
+                  "Wenqiang Pu",
+                  "Zhi-Quan Luo"
+                ],
+                "venue": "IEEE Transactions on Signal Processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/tsp.2025.3626640",
+                "url": "",
+                "topics": [
+                  "wireless"
+                ],
+                "corresponding_authors": [
+                  "Wenqiang Pu"
+                ]
+              },
+              {
+                "key": "yang2025reliability",
+                "id": "yang2025reliability-journal-articles",
+                "title": "Reliability-Enhanced Network Slicing for Time-Varying Software-Defined Space Information Network",
+                "authors": [
+                  "Huiting Yang",
+                  "Feng Wang",
+                  "Wei Liu",
+                  "Wenqiang Pu",
+                  "Haibo Zhou",
+                  "Tony QS Quek"
+                ],
+                "venue": "IEEE Transactions on Mobile Computing",
+                "abbr": "IEEE TMC",
+                "doi": "10.1109/tmc.2025.3642190",
+                "url": "",
+                "topics": [
+                  "wireless"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          },
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "xu2025radio",
+                "id": "xu2025radio-conference-papers",
+                "title": "Radio Map Estimation via Latent-domain Plug-and-play Denoisers",
+                "authors": [
+                  "Le Xu",
+                  "Lei Cheng",
+                  "Junting Chen",
+                  "Wenqiang Pu",
+                  "Xiao Fu"
+                ],
+                "venue": "2025 IEEE International Conference on Acoustics, Speech and Signal Processing",
+                "abbr": "IEEE ICASSP",
+                "doi": "10.1109/icassp49660.2025.10889056",
+                "url": "",
+                "topics": [
+                  "wireless"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "dong2025integrated",
+                "id": "dong2025integrated-conference-papers",
+                "title": "Integrated Interpolation and Matrix Completion for Radio Map Estimation: A Convex Optimization Approach",
+                "authors": [
+                  "Hongcheng Dong",
+                  "Wenqiang Pu",
+                  "Rui Zhou",
+                  "Xiao Fu",
+                  "Feng Yin"
+                ],
+                "venue": "2025 IEEE International Conference on Acoustics, Speech and Signal Processing",
+                "abbr": "IEEE ICASSP",
+                "doi": "10.1109/icassp49660.2025.10890350",
+                "url": "",
+                "topics": [
+                  "wireless"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "groups": [
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "li2023exploration",
+                "id": "li2023exploration-conference-papers",
+                "title": "An Exploration-estimation Beamforming Scheme for 5GNR FDD Massive MIMO Communications",
+                "authors": [
+                  "Kai Li",
+                  "Wenqiang Pu",
+                  "Zhi-Quan Luo"
+                ],
+                "venue": "2023 IEEE 24th International Workshop on Signal Processing Advances in Wireless Communications (SPAWC)",
+                "abbr": "IEEE SPAWC",
+                "doi": "10.1109/spawc53906.2023.10304506",
+                "url": "",
+                "topics": [
+                  "wireless"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "agents",
+    "name": "Agentic Learning",
+    "description": "LLM methods, agent-assisted modeling, and automated algorithm discovery.",
+    "count": 3,
+    "years": [
+      {
+        "year": "2026",
+        "groups": [
+          {
+            "name": "Preprints",
+            "items": [
+              {
+                "key": "zhou2026token",
+                "id": "zhou2026token-preprints",
+                "title": "Token-Level Attribution of Multi-Mode LLM Watermarks: Optimal Rule and Belief Weighting",
+                "authors": [
+                  "Rui Zhou",
+                  "Licheng Zhao",
+                  "Chao Shen",
+                  "Wenqiang Pu"
+                ],
+                "venue": "arXiv preprint arXiv:2610.23601",
+                "abbr": "arXiv",
+                "doi": "",
+                "url": "https://arxiv.org/abs/2610.23601",
+                "topics": [
+                  "agents"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "hou2026discover",
+                "id": "hou2026discover-preprints",
+                "title": "Discover Fast Power Allocation Solution for Multi-Target Tracking via AlphaEvolve Evolution",
+                "authors": [
+                  "Zhenkang Hou",
+                  "Wenqiang Pu",
+                  "Junkun Yan",
+                  "Rui Zhou",
+                  "Hongwei Liu"
+                ],
+                "venue": "arXiv preprint arXiv:2605.01794",
+                "abbr": "arXiv",
+                "doi": "",
+                "url": "https://arxiv.org/abs/2605.01794",
+                "topics": [
+                  "agents"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "groups": [
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "pan2025leveraging",
+                "id": "pan2025leveraging-conference-papers",
+                "title": "Leveraging Llm Agents for Automated Optimization Modeling for Sasp Problems: A Graph-rag Based Approach",
+                "authors": [
+                  "Tianpeng Pan",
+                  "Wenqiang Pu",
+                  "Licheng Zhao",
+                  "Rui Zhou"
+                ],
+                "venue": "2025 44th Chinese Control Conference (CCC)",
+                "abbr": "CCC",
+                "doi": "10.23919/ccc64809.2025.11178847",
+                "url": "",
+                "topics": [
+                  "agents"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tracking",
+    "name": "Target Tracking",
+    "description": "Target tracking and radar resource management, including scheduling, sensor coordination, and trajectory planning.",
+    "count": 29,
+    "years": [
+      {
+        "year": "2026",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "song2026joint",
+                "id": "song2026joint-journal-articles",
+                "title": "Joint Sensing and Communication Time Resource Allocation Approach in ISAC Networks",
+                "authors": [
+                  "Zilin Song",
+                  "Junkun Yan",
+                  "Wenqiang Pu",
+                  "Jia Liang",
+                  "Dawei Gao",
+                  "Hongwei Liu"
+                ],
+                "venue": "IEEE Transactions on Aerospace and Electronic Systems",
+                "abbr": "IEEE TAES",
+                "doi": "10.1109/taes.2026.3695511",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          },
+          {
+            "name": "Book Chapters",
+            "items": [
+              {
+                "key": "pu2026multiple",
+                "id": "pu2026multiple-book-chapters",
+                "title": "Multiple Radar Resource Allocation for Multitarget Tracking",
+                "authors": [
+                  "Wenqiang Pu",
+                  "Junkun Yan",
+                  "Peng Zhang",
+                  "Hao Jiao",
+                  "Hongwei Liu"
+                ],
+                "venue": "Advanced Techniques in Tracking and Sensor Management: Theory and Applications",
+                "abbr": "Book Chapter",
+                "doi": "10.1002/9781394332045.ch25",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "jiao2024wideband",
+                "id": "jiao2024wideband-journal-articles",
+                "title": "Wideband Sensor Resource Allocation for Extended Target Tracking and Classification",
+                "authors": [
+                  "Hao Jiao",
+                  "Junkun Yan",
+                  "Wenqiang Pu",
+                  "Yijun Chen",
+                  "Hongwei Liu",
+                  "Maria Sabrina Greco"
+                ],
+                "venue": "IEEE Transactions on Signal Processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/tsp.2024.3512615",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": [
+                  "Junkun Yan",
+                  "Wenqiang Pu"
+                ]
+              },
+              {
+                "key": "jiao2025heterogeneous",
+                "id": "jiao2025heterogeneous-journal-articles",
+                "title": "Heterogeneous Time Resource Arrangement and Refined Tracking for Phased Array Radar within Complex Target Environment",
+                "authors": [
+                  "Hao Jiao",
+                  "Junkun Yan",
+                  "Wenqiang Pu",
+                  "Tiancheng Li",
+                  "Lin Ma",
+                  "Hongwei Liu"
+                ],
+                "venue": "IEEE Transactions on Signal Processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/tsp.2025.3599241",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": [
+                  "Junkun Yan",
+                  "Wenqiang Pu"
+                ]
+              },
+              {
+                "key": "jiao2025joint",
+                "id": "jiao2025joint-journal-articles",
+                "title": "Joint Transmission Resource Allocation and Path Planning Scheme for Airborne Radar Cooperation in Non-ideal Detection Environments",
+                "authors": [
+                  "Hao Jiao",
+                  "Junkun Yan",
+                  "Wenqiang Pu",
+                  "Yijun Chen",
+                  "Jia Liang",
+                  "Hongwei Liu"
+                ],
+                "venue": "IEEE Transactions on Aerospace and Electronic Systems",
+                "abbr": "IEEE TAES",
+                "doi": "10.1109/taes.2025.3604396",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          },
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "jiao2025power",
+                "id": "jiao2025power-conference-papers",
+                "title": "Power Allocation for Networked Sensors in Extended Target Scenarios",
+                "authors": [
+                  "Hao Jiao",
+                  "Peng Zhang",
+                  "Shuo Zhang",
+                  "Junkun Yan",
+                  "Wenqiang Pu",
+                  "Hongwei Liu"
+                ],
+                "venue": "IET Conference Proceedings CP968",
+                "abbr": "IET CP",
+                "doi": "10.1049/icp.2026.1342",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "yan2024deployment",
+                "id": "yan2024deployment-journal-articles",
+                "title": "Deployment Optimization for Integrated Search and Tracking Tasks in Netted Radar System Based on Pareto Theory",
+                "authors": [
+                  "Junkun Yan",
+                  "Tong Zhang",
+                  "Lin Ma",
+                  "Wenqiang Pu",
+                  "Hongwei Liu"
+                ],
+                "venue": "IEEE Transactions on Aerospace and Electronic Systems",
+                "abbr": "IEEE TAES",
+                "doi": "10.1109/taes.2024.3367662",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": [
+                  "Lin Ma",
+                  "Wenqiang Pu"
+                ]
+              },
+              {
+                "key": "dai2024integrated",
+                "id": "dai2024integrated-journal-articles",
+                "title": "Integrated Trajectory Planning and Resource Scheduling for Multiple Target Tracking in Airborne Radar Network",
+                "authors": [
+                  "Jinhui Dai",
+                  "Junkun Yan",
+                  "Wenqiang Pu",
+                  "Dewu Wang",
+                  "Hongwei Liu"
+                ],
+                "venue": "IEEE Sensors Journal",
+                "abbr": "IEEE Sens. J.",
+                "doi": "10.1109/jsen.2024.3379384",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "zhang2024multi",
+                "id": "zhang2024multi-journal-articles",
+                "title": "Multi-dimensional Resource Management Scheme for Multiple Target Tracking Under Dynamic Electromagnetic Environment",
+                "authors": [
+                  "Peng Zhang",
+                  "Junkun Yan",
+                  "Wenqiang Pu",
+                  "Hongwei Liu",
+                  "Maria S Greco"
+                ],
+                "venue": "IEEE Transactions on Signal Processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/tsp.2024.3390119",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": [
+                  "Junkun Yan",
+                  "Wenqiang Pu"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "zhang2024frequency",
+                "id": "zhang2024frequency-conference-papers",
+                "title": "Frequency Control Scheme for Target Tracking Under Dynamic Electromagnetic Environment",
+                "authors": [
+                  "Peng Zhang",
+                  "Junkun Yan",
+                  "Jiaxing Wang",
+                  "Wenqiang Pu",
+                  "Xudong Dang",
+                  "Hongwei Liu"
+                ],
+                "venue": "2024 IEEE International Conference on Signal, Information and Data Processing (ICSIDP)",
+                "abbr": "ICSIDP",
+                "doi": "10.1109/icsidp62679.2024.10868482",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          },
+          {
+            "name": "Preprints",
+            "items": [
+              {
+                "key": "jiao4777739resource",
+                "id": "jiao4777739resource-preprints",
+                "title": "Resource Allocation for Extended Target Tracking in ISAC Application",
+                "authors": [
+                  "Hao Jiao",
+                  "Junkun Yan",
+                  "Wenqiang Pu",
+                  "Chang Gao",
+                  "Penghui Wang"
+                ],
+                "venue": "SSRN preprint 4777739",
+                "abbr": "SSRN",
+                "doi": "10.2139/ssrn.4777739",
+                "url": "https://www.ssrn.com/abstract=4777739",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "dai2023multi",
+                "id": "dai2023multi-journal-articles",
+                "title": "Multi-UAV Collaborative Trajectory Optimization for Asynchronous 3-D Passive Multitarget Tracking",
+                "authors": [
+                  "Jinhui Dai",
+                  "Wenqiang Pu",
+                  "Junkun Yan",
+                  "Qingjiang Shi",
+                  "Hongwei Liu"
+                ],
+                "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+                "abbr": "IEEE TGRS",
+                "doi": "10.1109/tgrs.2023.3239952",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": [
+                  "Wenqiang Pu",
+                  "Junkun Yan"
+                ]
+              },
+              {
+                "key": "yan2023maneuvering",
+                "id": "yan2023maneuvering-journal-articles",
+                "title": "Maneuvering Resource Allocation for Coordinated Target Tracking in Airborne Radar Network",
+                "authors": [
+                  "Junkun Yan",
+                  "Tao He",
+                  "Lin Ma",
+                  "Wenqiang Pu",
+                  "Hongwei Liu",
+                  "Maria Sabrina Greco"
+                ],
+                "venue": "IEEE Transactions on Signal Processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/tsp.2023.3265882",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "yan2022radar",
+                "id": "yan2022radar-journal-articles",
+                "title": "Radar Sensor Network Resource Allocation for Fused Target Tracking: A Brief Review",
+                "authors": [
+                  "Junkun Yan",
+                  "Hao Jiao",
+                  "Wenqiang Pu",
+                  "Chenguang Shi",
+                  "Jinhui Dai",
+                  "Hongwei Liu"
+                ],
+                "venue": "Information Fusion",
+                "abbr": "Inf. Fusion",
+                "doi": "10.1016/j.inffus.2022.06.009",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": [
+                  "Junkun Yan",
+                  "Wenqiang Pu"
+                ]
+              },
+              {
+                "key": "dai2022composed",
+                "id": "dai2022composed-journal-articles",
+                "title": "Composed Resource Optimization for Multitarget Tracking in Active and Passive Radar Network",
+                "authors": [
+                  "Jinhui Dai",
+                  "Junkun Yan",
+                  "Jindong Lv",
+                  "Lin Ma",
+                  "Wenqiang Pu",
+                  "Hongwei Liu",
+                  "Maria S Greco"
+                ],
+                "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+                "abbr": "IEEE TGRS",
+                "doi": "10.1109/tgrs.2022.3215228",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "dai2022adaptive",
+                "id": "dai2022adaptive-journal-articles",
+                "title": "Adaptive Channel Assignment for Maneuvering Target Tracking in Multistatic Passive Radar",
+                "authors": [
+                  "Jinhui Dai",
+                  "Junkun Yan",
+                  "Wenqiang Pu",
+                  "Hongwei Liu",
+                  "Maria Sabrina Greco"
+                ],
+                "venue": "IEEE Transactions on Aerospace and Electronic Systems",
+                "abbr": "IEEE TAES",
+                "doi": "10.1109/taes.2022.3218610",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": [
+                  "Junkun Yan",
+                  "Wenqiang Pu"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2021",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "yan2021target",
+                "id": "yan2021target-journal-articles",
+                "title": "Target Capacity Based Resource Optimization for Multiple Target Tracking in Radar Network",
+                "authors": [
+                  "Junkun Yan",
+                  "Jinhui Dai",
+                  "Wenqiang Pu",
+                  "Hongwei Liu",
+                  "Maria Greco"
+                ],
+                "venue": "IEEE Transactions on Signal Processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/tsp.2021.3071173",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          },
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "dai2021resource",
+                "id": "dai2021resource-conference-papers",
+                "title": "Resource Allocation for Multiple Target Tracking in Active and Passive Radar Network",
+                "authors": [
+                  "Jinhui Dai",
+                  "Xiuci Mo",
+                  "Wenqiang Pu",
+                  "Junkun Yan",
+                  "Penghui Wang",
+                  "Hongwei Liu"
+                ],
+                "venue": "2021 CIE International Conference on Radar (Radar)",
+                "abbr": "Radar",
+                "doi": "10.1109/radar53847.2021.10028566",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2020",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "yan2020collaborative",
+                "id": "yan2020collaborative-journal-articles",
+                "title": "Collaborative Detection and Power Allocation Framework for Target Tracking in Multiple Radar System",
+                "authors": [
+                  "Junkun Yan",
+                  "Wenqiang Pu",
+                  "Shenghua Zhou",
+                  "Hongwei Liu",
+                  "Zheng Bao"
+                ],
+                "venue": "Information Fusion",
+                "abbr": "Inf. Fusion",
+                "doi": "10.1016/j.inffus.2019.08.010",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": [
+                  "Hongwei Liu"
+                ]
+              },
+              {
+                "key": "yan2020quality",
+                "id": "yan2020quality-journal-articles",
+                "title": "Quality of Service Constrained-resource Allocation Scheme for Multiple Target Tracking in Radar Sensor Network",
+                "authors": [
+                  "Junkun Yan",
+                  "Jinhui Dai",
+                  "Wenqiang Pu",
+                  "Shenghua Zhou",
+                  "Hongwei Liu",
+                  "Zheng Bao"
+                ],
+                "venue": "IEEE Systems Journal",
+                "abbr": "IEEE Syst. J.",
+                "doi": "10.1109/jsyst.2020.2990409",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "yan2020optimal",
+                "id": "yan2020optimal-journal-articles",
+                "title": "Optimal Resource Allocation for Asynchronous Multiple Targets Tracking in Heterogeneous Radar Networks",
+                "authors": [
+                  "Junkun Yan",
+                  "Wenqiang Pu",
+                  "Shenghua Zhou",
+                  "Hongwei Liu",
+                  "Maria S Greco"
+                ],
+                "venue": "IEEE transactions on signal processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/tsp.2020.3007313",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": [
+                  "Shenghua Zhou",
+                  "Hongwei Liu"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2019",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "yan2019resource",
+                "id": "yan2019resource-journal-articles",
+                "title": "Resource Allocation for Search and Track Application in Phased Array Radar Based on Pareto Bi-objective Optimization",
+                "authors": [
+                  "Junkun Yan",
+                  "Wenqiang Pu",
+                  "Jinhui Dai",
+                  "Hongwei Liu",
+                  "Zheng Bao"
+                ],
+                "venue": "IEEE Transactions on Vehicular Technology",
+                "abbr": "IEEE TVT",
+                "doi": "10.1109/tvt.2019.2894960",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": [
+                  "Wenqiang Pu"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2018",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "yan2018robust",
+                "id": "yan2018robust-journal-articles",
+                "title": "Robust Chance Constrained Power Allocation Scheme for Multiple Target Localization in Colocated MIMO Radar System",
+                "authors": [
+                  "Junkun Yan",
+                  "Wenqiang Pu",
+                  "Hongwei Liu",
+                  "Bo Jiu",
+                  "Zheng Bao"
+                ],
+                "venue": "IEEE Transactions on Signal Processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/tsp.2018.2841865",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": [
+                  "Wenqiang Pu",
+                  "Hongwei Liu"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2017",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "yan2016decentralized",
+                "id": "yan2016decentralized-journal-articles",
+                "title": "Decentralized 3-D Target Tracking in Asynchronous 2-D Radar Network: Algorithm and Performance Evaluation",
+                "authors": [
+                  "Junkun Yan",
+                  "Hongwei Liu",
+                  "Wenqiang Pu",
+                  "Zheng Bao"
+                ],
+                "venue": "IEEE Sensors Journal",
+                "abbr": "IEEE Sensors J.",
+                "doi": "10.1109/jsen.2016.2635132",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "yan2017joint",
+                "id": "yan2017joint-journal-articles",
+                "title": "Joint Threshold Adjustment and Power Allocation for Cognitive Target Tracking in Asynchronous Radar Network",
+                "authors": [
+                  "Junkun Yan",
+                  "Hongwei Liu",
+                  "Wenqiang Pu",
+                  "Hongliang Liu",
+                  "Zheng Liu",
+                  "Zheng Bao"
+                ],
+                "venue": "IEEE Transactions on Signal Processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/tsp.2017.2679693",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "yan2017cooperative",
+                "id": "yan2017cooperative-journal-articles",
+                "title": "Cooperative target assignment and dwell allocation for multiple target tracking in phased array radar network",
+                "authors": [
+                  "Junkun Yan",
+                  "Wenqiang Pu",
+                  "Hongwei Liu",
+                  "Shenghua Zhou",
+                  "Zheng Bao"
+                ],
+                "venue": "Signal Processing",
+                "abbr": "Signal Processing",
+                "doi": "10.1016/j.sigpro.2017.05.014",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2016",
+        "groups": [
+          {
+            "name": "Journal Articles",
+            "items": [
+              {
+                "key": "yan2016benefit",
+                "id": "yan2016benefit-journal-articles",
+                "title": "Benefit Analysis of Data Fusion for Target Tracking in Multiple Radar System",
+                "authors": [
+                  "Junkun Yan",
+                  "Hongwei Liu",
+                  "Wenqiang Pu",
+                  "Bo Jiu",
+                  "Zheng Liu",
+                  "Zheng Bao"
+                ],
+                "venue": "IEEE Sensors Journal",
+                "abbr": "IEEE Sensors J.",
+                "doi": "10.1109/jsen.2016.2581824",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": []
+              },
+              {
+                "key": "yan2016joint",
+                "id": "yan2016joint-journal-articles",
+                "title": "Joint Beam Selection and Power Allocation for Multiple Target Tracking in Netted Colocated MIMO Radar System",
+                "authors": [
+                  "Junkun Yan",
+                  "Hongwei Liu",
+                  "Wenqiang Pu",
+                  "Shenghua Zhou",
+                  "Zheng Liu",
+                  "Zheng Bao"
+                ],
+                "venue": "IEEE Transactions on Signal Processing",
+                "abbr": "IEEE TSP",
+                "doi": "10.1109/tsp.2016.2607147",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          },
+          {
+            "name": "Conference Papers",
+            "items": [
+              {
+                "key": "junkun2016joint",
+                "id": "junkun2016joint-conference-papers",
+                "title": "Joint power and bandwidth allocation for centeralized target tracking in multiple radar system",
+                "authors": [
+                  "Junkun Yan",
+                  "Wenqiang Pu",
+                  "Hongwei Liu",
+                  "Zheng Bao"
+                ],
+                "venue": "2016 CIE International Conference on Radar (RADAR)",
+                "abbr": "IEEE Radar",
+                "doi": "10.1109/radar.2016.8059263",
+                "url": "",
+                "topics": [
+                  "tracking"
+                ],
+                "corresponding_authors": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

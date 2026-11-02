@@ -1,0 +1,62 @@
+# Coauthors data file for al-folio
+# Format: "lastname" (lowercase):
+#   - firstname: [list of name variants that appear in BibTeX]
+#     url: homepage URL
+#
+# When a paper lists a coauthor matching these entries,
+# al-folio will auto-link their name to their homepage.
+
+"liu":
+  - firstname: ["Hongwei", "H.", "H. W."]
+    url: https://web.xidian.edu.cn/hwliu/
+
+  - firstname: ["Ya-Feng", "Y.-F.", "Y.F."]
+    url: https://scholar.google.com/citations?user=BKf6LDIAAAAJ
+
+"luo":
+  - firstname: ["Zhi-Quan", "Z.-Q.", "Z.Q.", "Zhi Quan"]
+    url: https://sse.cuhk.edu.cn/en/faculty/luozhiquan
+
+"hong":
+  - firstname: ["Mingyi", "M."]
+    url: https://people.ece.umn.edu/~mhong/mingyi.html
+
+"fu":
+  - firstname: ["Xiao", "X."]
+    url: https://web.engr.oregonstate.edu/~fuxia/
+
+"yan":
+  - firstname: ["Junkun", "J.", "J. K."]
+    url: https://scholar.google.com/citations?user=placeholder_yan
+
+"shi":
+  - firstname: ["Qingjiang", "Q.", "Q. J."]
+    url: https://scholar.google.com/citations?user=placeholder_shi
+
+"jiu":
+  - firstname: ["Bo", "B."]
+    url: https://scholar.google.com/citations?user=placeholder_jiu
+
+"dai":
+  - firstname: ["Jinhui", "J.", "J. H."]
+    url: https://scholar.google.com/citations?user=placeholder_dai
+
+"sun":
+  - firstname: ["Haoran", "H.", "H. R."]
+    url: https://hrsun.com/
+
+"ibrahim":
+  - firstname: ["Shahana", "S."]
+    url: https://shahana-ibrahim.github.io/
+
+"so":
+  - firstname: ["Anthony Man-Cho", "A. M.-C.", "A.M.-C."]
+    url: http://www.se.cuhk.edu.hk/people/academic-staff/prof-so-man-cho-anthony/
+
+"greco":
+  - firstname: ["Maria S.", "M. S.", "M.S."]
+    url: https://www.iet.unipi.it/m.greco/
+
+"theodoridis":
+  - firstname: ["Sergios", "S."]
+    url: https://scholar.google.com/citations?user=8D7m5LAAAAAJ

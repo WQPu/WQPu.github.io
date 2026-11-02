@@ -1,0 +1,9 @@
+<ul class="cv-awards__list">
+  {% for award in entry.contents %}
+    <li class="cv-awards__item">
+      <span class="cv-awards__title">{{ award.title | escape }}</span>
+      <span class="cv-awards__date">{{ award.year | escape }}</span>
+      {% if award.institution %}<span class="cv-awards__detail">{{ award.institution | escape }}</span>{% endif %}
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,17 @@
+{% assign paper = include.paper %}
+<li class="publication-item" id="{{ include.id_prefix }}{{ paper.id }}" data-publication-key="{{ paper.key }}">
+  {% if paper.abbr != "" %}<span class="publication-item__venue">{{ paper.abbr | escape }}</span>{% endif %}
+  <div class="publication-item__content">
+    <div class="publication-item__title">
+      {% if paper.doi and paper.doi != '' %}
+        <a href="https://doi.org/{{ paper.doi | escape }}" target="_blank" rel="noopener">{{ paper.title | escape }}</a>
+      {% elsif paper.url and paper.url != '' %}
+        <a href="{{ paper.url | escape }}" target="_blank" rel="noopener">{{ paper.title | escape }}</a>
+      {% else %}
+        {{ paper.title | escape }}
+      {% endif %}
+    </div>
+    <div class="publication-item__authors">{% include publication_authors.liquid paper=paper %}</div>
+    <div class="publication-item__source">{{ paper.venue | escape }}</div>
+  </div>
+</li>

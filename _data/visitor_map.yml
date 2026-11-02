@@ -1,0 +1,6 @@
+enabled: true
+# Paste the value of `d` from your own MapMyVisitors map.js embed code here.
+# Widget for https://wqpu.github.io/, supplied by the site owner on 2026-11-01.
+widget_id: "knRATdcGDJCAauEkaBhnYYyBwZdp5cOkMLO13c7cSvo"
+# Optional: the public statistics URL supplied by MapMyVisitors (https://mapmyvisitors.com/web/...).
+statistics_url: "https://mapmyvisitors.com/web/1c98b"

@@ -1,0 +1,31 @@
+- code: MCE5919
+  title: Gaussian Process for Machine Learning and Signal Processing
+  institution: The Chinese University of Hong Kong, Shenzhen
+  term: January–May 2026
+  description: Lecture slides and browser-based numerical examples.
+  slides:
+    - label: Lecture 1
+      url: /teaching/MCE5919/sldies/MCE5919Slides__Lecture_1_.pdf
+    - label: Lecture 2
+      url: /teaching/MCE5919/sldies/MCE5919Slides__Lecture_2.pdf
+    - label: Lecture 3
+      url: /teaching/MCE5919/sldies/MCE5919Slides__Lecture_3.pdf
+    - label: Lecture 4
+      url: /teaching/MCE5919/sldies/MCE5919Slides__Lecture_4.pdf
+    - label: Lecture 5
+      url: /teaching/MCE5919/sldies/MCE5919Slides__Lecture_5.pdf
+    - label: Lecture 6
+      url: /teaching/MCE5919/sldies/MCE5919Slides__Lecture_6.pdf
+    - label: Lecture 7
+      url: /teaching/MCE5919/sldies/MCE5919Slides__Lecture_7.pdf
+  examples:
+    - title: Linear and Logistic Regression
+      url: /teaching/MCE5919/codes/linear_logistic_regression.html
+    - title: Bayesian Regression and Kernels
+      url: /teaching/MCE5919/codes/bayesian_regression_kernel.html
+    - title: Gaussian Process Regression
+      url: /teaching/MCE5919/codes/gp_regression.html
+    - title: Gaussian Process Classification
+      url: /teaching/MCE5919/codes/gp_classification.html
+    - title: Model Selection for Gaussian Processes
+      url: /teaching/MCE5919/codes/model_selection.html

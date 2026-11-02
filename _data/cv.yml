@@ -1,0 +1,77 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Wenqiang Pu
+    - name: Affiliation
+      value: Shenzhen Loop Area Institute
+    - name: Email
+      value: wenqiangpu@slai.edu.cn
+
+- title: Current Positions
+  type: time_table
+  contents:
+    - title: Assistant Professor
+      institution: Shenzhen Loop Area Institute
+      year: Current
+
+- title: Part-time Appointments
+  type: time_table
+  contents:
+    - title: Research Scientist
+      institution: Shenzhen Research Institute of Big Data (SRIBD), Shenzhen, China
+      year: 2020 - now
+    - title: Adjunct Assistant Professor
+      institution: School of Science and Engineering, The Chinese University of Hong Kong, Shenzhen (CUHKSZ)
+      year: 2024 - now
+
+- title: Academic Service
+  type: time_table
+  contents:
+    - title: Associate Editor
+      institution: IEEE Signal Processing Letters
+      year: 2024 - now
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Electrical Engineering
+      institution: Xidian University, Xi'an, China
+      year: 2018
+      description:
+        - Focus on signal processing and optimization
+        - Supervisors — Prof. Hongwei Liu and Prof. Zhi-Quan Luo
+        - Visiting Ph.D. student at CUHKSZ (2015–2018)
+    - title: B.S. in Electrical Engineering
+      institution: Xidian University, Xi'an, China
+      year: 2013
+
+- title: Previous Experience
+  type: time_table
+  contents:
+    - title: Postdoctoral Researcher
+      institution: The Chinese University of Hong Kong, Shenzhen (CUHKSZ)
+      year: 2019 - 2020
+
+# Source: the author's ModernCV_WPu EN.pdf, page 2, provided on 2026-10-28.
+- title: Awards and Honors
+  type: awards
+  contents:
+    - title: Natural Science Award - First Class
+      institution: Shaanxi Province
+      year: May 2026
+    - title: Top 0.5% Scholar by ScholarGPS
+      institution: "Fields: Signal Processing, Sensor Fusion"
+      year: Aug. 2025
+    - title: Outstanding Coach Award
+      institution: The 3rd HUAWEI College Student's Communication Algorithm Competition
+      year: Sep. 2024
+    - title: Best Student Paper Award
+      institution: IEEE SAM 2024, Signal Processing Society
+      year: July 2024
+    - title: Natural Science Award of CIE - First Class
+      institution: Chinese Institute of Electronics, Shanxi
+      year: May 2023
+    - title: Excellent Paper Award
+      institution: 2016 CIE International Conference on Radar
+      year: Oct. 2016

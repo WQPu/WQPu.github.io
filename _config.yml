@@ -1,52 +1,528 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
+# -----------------------------------------------------------------------------
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# -----------------------------------------------------------------------------
 
 title: Wenqiang PU
-# email: wenqiangpu@cuhk.edu.cn
-description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to Wenqiang's Page!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-# github_username:  WQPu
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+first_name: Wenqiang
+middle_name:
+last_name: Pu
+email: wenqiangpu@slai.edu.cn
+description: >
+  Assistant Professor at Shenzhen Loop Area Institute.
+  My research explores the mathematical and algorithmic foundations of adaptive intelligence,
+  with an emphasis on sensing and learning under uncertainty.
+footer_text: >
+  Academic homepage.
+keywords: signal processing, radar, optimization, machine learning, ISAC
+lang: en
+icon: 📡
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+url: https://WQPu.github.io
+baseurl:
+last_updated: false
+back_to_top: true
+
+# -----------------------------------------------------------------------------
+# Theme
+# -----------------------------------------------------------------------------
+
+repo_theme_light: default
+repo_theme_dark: dark
+repo_trophies:
+  enabled: false
+
+# -----------------------------------------------------------------------------
+# RSS Feed
+# -----------------------------------------------------------------------------
+
+rss_icon: true
+
+# -----------------------------------------------------------------------------
+# Layout
+# -----------------------------------------------------------------------------
+
+navbar_fixed: true
+footer_fixed: false
+search_enabled: true
+socials_in_search: false
+bib_search: true
+
+max_width: 960px
+
+# -----------------------------------------------------------------------------
+# Open Graph & Schema.org
+# -----------------------------------------------------------------------------
+
+serve_og_meta: true
+serve_schema_org: true
+og_image: assets/img/prof_pic.jpg
+
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+
+github_username: WQPu
+scholar_userid: JpRVZaIAAAAJ
+orcid_id:
+linkedin_username:
+ieee_id:
+
+contact_note:
+
+# -----------------------------------------------------------------------------
+# Analytics and search engine verification
+# -----------------------------------------------------------------------------
+
+google_analytics:
+google_site_verification:
+
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+
+blog_name: Research Notes
+blog_description: Mathematical derivations, Jupyter experiments, and research insights
+permalink: /blog/:year/:title/
+lsi: false
+
+pagination:
+  enabled: false
+
+related_blog_posts:
+  enabled: false
+  max_related: 3
+
+# Comments — disabled by default, enable giscus after setup
+giscus:
+  repo:
+  repo_id:
+  category: Comments
+  category_id:
+  mapping: title
+  strict: 1
+  reactions_enabled: 1
+  input_position: bottom
+  theme: preferred_color_scheme
+  emit_metadata: 0
+  lang: en
+
+disqus_shortname:
+
+external_sources:
+
+newsletter:
+  enabled: false
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+collections: {}
+
+announcements:
+  enabled: false
+  scrollable: true
+  limit: 5
+
+latest_posts:
+  enabled: false
+  scrollable: true
+  limit: 3
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
+include: ["_pages"]
+exclude:
+  - AGENTS.md
+  - CLAUDE.md
+  - .local-only/
+  - .claude/
+  - .vscode/
+  - assets/pdf/
+  - requirements.txt
+  - PubPaperPDFs/
+  - docs/
+  - tools/
+  - bin/
+  - CONTRIBUTING.md
+  - CUSTOMIZE.md
+  - Dockerfile
+  - docker-compose.yml
+  - docker-compose-slim.yml
+  - FAQ.md
+  - Gemfile
+  - Gemfile.lock
+  - INSTALL.md
+  - LICENSE
+  - lighthouse_results/
+  - package.json
+  - package-lock.json
+  - purgecss.config.js
+  - README.md
+  - readme_preview/
+  - vendor
+keep_files:
+  - CNAME
+  - .nojekyll
+
+plugins:
+  - jekyll-archives
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll-regex-replace
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-tabs
+  - jekyll-toc
+  - jekyll-twitter-plugin
+  - jemoji
+
+defaults:
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
+
+sass:
+  style: compressed
+
+# -----------------------------------------------------------------------------
+# Jekyll Minifier
+# -----------------------------------------------------------------------------
+
+jekyll-minifier:
+  exclude: ["robots.txt", "assets/js/search/*.js", "assets/libs/**/*"]
+  uglifier_args:
+    harmony: true
+
+# -----------------------------------------------------------------------------
+# Jekyll Archives
+# -----------------------------------------------------------------------------
+
+jekyll-archives:
+  enabled: [year, tags, categories]
+  layouts:
+    year: archive-year
+    tag: archive-tag
+    category: archive-category
+  permalinks:
+    year: "/blog/:year/"
+    tag: "/blog/tag/:name/"
+    category: "/blog/category/:name/"
+
+display_tags: ["optimization", "signal-processing", "radar", "machine-learning", "tutorial"]
+display_categories: ["research-notes", "tutorial"]
+
+# -----------------------------------------------------------------------------
+# Jekyll Scholar
+# -----------------------------------------------------------------------------
+
+scholar:
+  last_name: [Pu]
+  first_name: [Wenqiang, W.]
+
+  style: apa
+  locale: en
+
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  bibtex_filters: [latex, smallcaps, superscript]
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_link: Details
+
+  query: "@*"
+  group_by: year
+  group_order: descending
+
+enable_publication_badges:
+  altmetric: false
+  dimensions: true
+  google_scholar: true
+  inspirehep: false
+
+filtered_bibtex_keywords:
+  [
+    abbr,
+    abstract,
+    additional_info,
+    altmetric,
+    annotation,
+    arxiv,
+    award,
+    award_name,
+    bibtex_show,
+    blog,
+    code,
+    google_scholar_id,
+    html,
+    inspirehep_id,
+    pdf,
+    poster,
+    preview,
+    selected,
+    slides,
+    supp,
+    video,
+    website,
+  ]
+
+max_author_limit: 99
+more_authors_animation_delay: 10
+enable_publication_thumbnails: true
+enable_project_categories: true
+
+# -----------------------------------------------------------------------------
+# Jekyll Link Attributes
+# -----------------------------------------------------------------------------
+
+external_links:
+  enabled: true
+  rel: external nofollow noopener
+  target: _blank
+  exclude:
+
+# -----------------------------------------------------------------------------
+# Responsive WebP Images
+# -----------------------------------------------------------------------------
+
+imagemagick:
+  enabled: false
+  widths:
+    - 480
+    - 800
+    - 1400
+  input_directories:
+    - assets/img/
+  input_formats:
+    - ".jpg"
+    - ".jpeg"
+    - ".png"
+    - ".tiff"
+    - ".gif"
+  output_formats:
+    webp: "-quality 85"
+
+lazy_loading_images: true
+
+# -----------------------------------------------------------------------------
+# Jekyll TOC
+# -----------------------------------------------------------------------------
+
+toc:
+  beginning: true
+
+# -----------------------------------------------------------------------------
+# Pagination
+# -----------------------------------------------------------------------------
+
+pagination:
+  enabled: false
+  per_page: 5
+  permalink: "/page/:num/"
+  title: ":title - page :num"
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true
+
+# -----------------------------------------------------------------------------
+# Third Party Libraries
+# -----------------------------------------------------------------------------
+
+third_party_libraries:
+  download: false
+  bootstrap-table:
+    integrity:
+      css: "sha256-uRX+PiRTR4ysKFRCykT8HLuRCub26LgXJZym3Yeom1c="
+      js: "sha256-4rppopQE9POKfukn2kEvhJ9Um25Cf6+IDVkARD0xh78="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.css"
+      js: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.js"
+    version: "1.22.4"
+  chartjs:
+    integrity:
+      js: "sha256-0q+JdOlScWOHcunpUk21uab1jW7C1deBQARHtKMcaB4="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/chart.js@{{version}}/dist/chart.umd.min.js"
+    version: "4.4.1"
+  d3:
+    integrity:
+      js: "sha256-1rA678n2xEx7x4cTZ5x4wpUCj6kUMZEZ5cxLSVSFWxw="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/d3@{{version}}/dist/d3.min.js"
+    version: "7.8.5"
+  diff2html:
+    integrity:
+      css: "sha256-IMBK4VNZp0ivwefSn51bswdsrhk0HoMTLc2GqFHFBXg="
+      js: "sha256-eU2TVHX633T1o/bTQp6iIJByYJEtZThhF9bKz/DcbbY="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/diff2html@{{version}}/bundles/css/diff2html.min.css"
+      js: "https://cdn.jsdelivr.net/npm/diff2html@{{version}}/bundles/js/diff2html-ui.min.js"
+    version: "3.4.47"
+  echarts:
+    integrity:
+      js:
+        library: "sha256-QvgynZibb2U53SsVu98NggJXYqwRL7tg3FeyfXvPOUY="
+        dark_theme: "sha256-sm6Ui9w41++ZCWmIWDLC18a6ki72FQpWDiYTDxEPXwU="
+    url:
+      js:
+        library: "https://cdn.jsdelivr.net/npm/echarts@{{version}}/dist/echarts.min.js"
+        dark_theme: "https://cdn.jsdelivr.net/npm/echarts@{{version}}/theme/dark-fresh-cut.js"
+    version: "5.5.0"
+  google_fonts:
+    url:
+      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+  highlightjs:
+    integrity:
+      css:
+        light: "sha256-Oppd74ucMR5a5Dq96FxjEzGF7tTw2fZ/6ksAqDCM8GY="
+        dark: "sha256-nyCNAiECsdDHrr/s2OQsp5l9XeY2ZJ0rMepjCT2AkBk="
+    url:
+      css:
+        light: "https://cdn.jsdelivr.net/npm/highlight.js@{{version}}/styles/github.min.css"
+        dark: "https://cdn.jsdelivr.net/npm/highlight.js@{{version}}/styles/github-dark.min.css"
+    version: "11.9.0"
+  imagesloaded:
+    integrity:
+      js: "sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc="
+    url:
+      js: https://cdn.jsdelivr.net/npm/imagesloaded@{{version}}/imagesloaded.pkgd.min.js
+    version: "5.0.0"
+  img-comparison-slider:
+    integrity:
+      css: "sha256-3qTIuuUWIFnnU3LpQMjqiXc0p09rvd0dmj+WkpQXSR8="
+      js: "sha256-EXHg3x1K4oIWdyohPeKX2ZS++Wxt/FRPH7Nl01nat1o="
+      map: "sha256-3wfqS2WU5kGA/ePcgFzJXl5oSN1QsgZI4/edprTgX8w="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/styles.min.css"
+      js: "https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/index.min.js"
+      map: "https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/index.js.map"
+    version: "8.0.6"
+  jquery:
+    integrity:
+      js: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js"
+    version: "3.6.0"
+  leaflet:
+    integrity:
+      css: "sha256-q9ba7o845pMPFU+zcAll8rv+gC+fSovKsOoNQ6cynuQ="
+      js: "sha256-MgH13bFTTNqsnuEoqNPBLDaqxjGH+lCpqrukmXc8Ppg="
+      js_map: "sha256-YAoQ3FzREN4GmVENMir8vgHHypC0xfSK3CAxTHCqx1M="
+    local:
+      images: "images/"
+    url:
+      css: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.min.css"
+      images: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/images/"
+      js: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.min.js"
+      js_map: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.js.map"
+    version: "1.9.4"
+  mathjax:
+    integrity:
+      js: "sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="
+    local:
+      fonts: "output/chtml/fonts/woff-v2/"
+    url:
+      fonts: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/output/chtml/fonts/woff-v2/"
+      js: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.js"
+    version: "3.2.2"
+  masonry:
+    integrity:
+      js: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/masonry-layout@{{version}}/dist/masonry.pkgd.min.js"
+    version: "4.2.2"
+  mdb:
+    integrity:
+      css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
+      css_map: "sha256-iYYMNfsJdVZjvsebJulg09miBXM4/GMTJgv1u5EZFFM="
+      js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
+      js_map: "sha256-UPgyn4YNsT0khkBK5553QwhnlbTlU0aa+igyc6qP1bE="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/css/mdb.min.css"
+      css_map: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/css/mdb.min.css.map"
+      js: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js"
+      js_map: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js.map"
+    version: "4.20.0"
+  medium_zoom:
+    integrity:
+      js: "sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/medium-zoom@{{version}}/dist/medium-zoom.min.js"
+    version: "1.1.0"
+  mermaid:
+    integrity:
+      js: "sha256-TtLOdUA8mstPoO6sGvHIGx2ceXrrX4KgIItO06XOn8A="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/mermaid@{{version}}/dist/mermaid.min.js"
+    version: "10.7.0"
+  polyfill:
+    url:
+      js: "https://cdnjs.cloudflare.com/polyfill/v{{version}}/polyfill.min.js?features=es6"
+    version: "3"
+  pseudocode:
+    integrity:
+      css: "sha256-VwMV//xgBPDyRFVSOshhRhzJRDyBmIACniLPpeXNUdc="
+      js: "sha256-aVkDxqyzrB+ExUsOY9PdyelkDhn/DfrjWu08aVpqNlo="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.css"
+      js: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.js"
+    version: "2.4.1"
+  swiper:
+    integrity:
+      css: "sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZBf8HlBFsB6Xwm7rH75/9E="
+      js: "sha256-BPrwikijIybg9OQC5SYFFqhBjERYOn97tCureFgYH1E="
+      map: "sha256-lbF5CsospW93otqvWOIbbhj80CjazrZXvamD7nC7TBI="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/swiper@{{version}}/swiper-bundle.min.css"
+      js: "https://cdn.jsdelivr.net/npm/swiper@{{version}}/swiper-element-bundle.min.js"
+      map: "https://cdn.jsdelivr.net/npm/swiper@{{version}}/swiper-element-bundle.min.js.map"
+    version: "11.0.5"
+  vega:
+    integrity:
+      js: "sha256-Yot/cfgMMMpFwkp/5azR20Tfkt24PFqQ6IQS+80HIZs="
+      js_map: "sha256-z0x9ICA65dPkZ0JVa9wTImfF6n7AJsKc6WlFE96/wNA="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/vega@{{version}}/build/vega.min.js"
+      js_map: "https://cdn.jsdelivr.net/npm/vega@{{version}}/build/vega.min.js.map"
+    version: "5.27.0"
+  vega-embed:
+    integrity:
+      js: "sha256-FPCJ9JYCC9AZSpvC/t/wHBX7ybueZhIqOMjpWqfl3DU="
+      js_map: "sha256-VBbfSEFYSMdX/rTdGrONEHNP6BprCB7H/LpMMNt/cPA="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/vega-embed@{{version}}/build/vega-embed.min.js"
+      js_map: "https://cdn.jsdelivr.net/npm/vega-embed@{{version}}/build/vega-embed.min.js.map"
+    version: "6.24.0"
+  vega-lite:
+    integrity:
+      js: "sha256-TvBvIS5jUN4BSy009usRjNzjI1qRrHPYv7xVLJyjUyw="
+      js_map: "sha256-l2I4D5JC23Ulsu6e3sKVe5AJ+r+DFkzkKnZS8nUGz28="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/vega-lite@{{version}}/build/vega-lite.min.js"
+      js_map: "https://cdn.jsdelivr.net/npm/vega-lite@{{version}}/build/vega-lite.min.js.map"
+    version: "5.16.3"

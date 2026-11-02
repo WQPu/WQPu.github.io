@@ -1,0 +1,39 @@
+{% assign visitor_map = site.data.visitor_map %}
+{% assign visitor_widget_id = visitor_map.widget_id | strip %}
+{% if visitor_map.enabled %}
+  {% if visitor_widget_id != '' or jekyll.environment == 'development' %}
+    <section
+      class="visitor-map"
+      aria-labelledby="visitor-map-heading"
+      data-visitor-map
+      data-widget-id="{{ visitor_widget_id | escape }}"
+      data-site-url="{{ site.url | escape }}"
+    >
+      <h2 class="visitor-map__heading" id="visitor-map-heading">Visitors</h2>
+      <figure class="visitor-map__figure">
+        <div class="visitor-map__canvas" data-visitor-map-canvas>
+          <div class="visitor-map__placeholder" data-visitor-map-placeholder>
+            <svg class="visitor-map__outline" viewBox="0 0 640 310" aria-hidden="true" focusable="false">
+              <g fill="currentColor">
+                <path d="m28 71 20-19 35-10 23-16 37 5 22 13 30-5 15 14-8 18-27 10-11 20-22 3-12 20-20 6-4 19 17 16 8 21 15 10-1 13-14-1-18-18-14-28-18-12-11-22-15-9-7-19-14-9Z"/>
+                <path d="m168 15 30-9 26 11-8 29-20 14-19-18Z"/>
+                <path d="m174 180 19-9 25 10 12 22 17 9-10 28-15 14-9 28-15 17-9-10 4-23-11-26-2-28-12-16Z"/>
+                <path d="m279 83 13-16 16 4 10-13 22 1 9-19 28-6 18 11 31-15 31 6 21-4 33 13 35-2 31 18 19 3 17 19-9 17-23 1-13 17-21-4-12 15-28-5-17 11 3 19-14 15-13-15-8-21-18-8-12 11-14-8-15 4-16-18-19 3-9-12-25 5-6-16-13-1-8 13-14-1Z"/>
+                <path d="m287 119 22-7 21 11 24 2 15 20-5 22-16 18-7 29-15 19-12-5-9-23-2-23-17-17-6-25Z"/>
+                <path d="m363 210 7-11 6 5-4 21-7 6-5-8Z"/>
+                <path d="m470 165 10 2 6 12 18 6 10 10-11 4-17-10-14-3-7-11Z"/>
+                <path d="m527 205 17-13 18 4 15-8 17 17 1 23-19 11-20-6-17 5-16-14Z"/>
+                <path d="m607 244 9-7 4 13-11 16-7-2Z"/>
+                <path d="m548 124 7-13 4 9-5 15-6 3Z"/>
+              </g>
+            </svg>
+            <p class="visitor-map__status sr-only" data-visitor-map-status role="status">{% if visitor_widget_id == '' %}Visitor map preview{% else %}Visitor map{% endif %}</p>
+            <noscript><p class="visitor-map__status sr-only">Enable JavaScript to display the visitor map.</p></noscript>
+          </div>
+          <div class="visitor-map__embed" data-visitor-map-embed></div>
+        </div>
+      </figure>
+    </section>
+    <script src="{{ '/assets/js/visitor-map.js' | relative_url }}" defer></script>
+  {% endif %}
+{% endif %}

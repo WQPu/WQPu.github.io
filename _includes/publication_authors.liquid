@@ -1,0 +1,4 @@
+{% assign paper = include.paper %}
+{% for author in paper.authors %}
+  {% if forloop.last and forloop.length > 1 %}and {% endif %}<span class="publication-author{% if author == 'Wenqiang Pu' and paper.corresponding_authors contains author %} publication-author--corresponding{% endif %}" data-author="{{ author | escape }}">{% if author == 'Wenqiang Pu' %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% if paper.corresponding_authors contains author %}<sup class="publication-item__corresponding{% unless author == 'Wenqiang Pu' %} publication-item__corresponding--secondary{% endunless %}" title="Corresponding author" aria-label="corresponding author">*</sup>{% endif %}</span>{% unless forloop.last %}, {% endunless %}
+{% endfor %}

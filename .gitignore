@@ -1,0 +1,27 @@
+# Generated output and dependency caches
+/_site/
+/.sass-cache/
+/.jekyll-cache/
+/.jekyll-metadata
+/vendor/
+/.bundle/
+/node_modules/
+__pycache__/
+*.py[cod]
+**/.ipynb_checkpoints/
+.DS_Store
+
+# Private evidence, recovery copies, and machine-specific settings
+/PubPaperPDFs/
+/.local-only/
+/.claude/
+/.vscode/
+/AGENTS.md
+/CLAUDE.md
+.env
+.env.*
+!.env.example
+
+# PDFs stay private except teaching slides explicitly published by the author.
+*.pdf
+!/teaching/**/*.pdf

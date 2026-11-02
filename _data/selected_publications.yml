@@ -1,0 +1,19 @@
+# Featured papers in descending publication year, as requested by the author.
+- key: li2026optimistic
+  focus: [Learning Algorithms]
+  contribution: Optimistic posterior sampling enables no-regret learning in unknown games with bandit feedback.
+- key: zhou2025harnessing
+  focus: [Signal Processing, Learning Algorithms]
+  contribution: Monotonic neural networks predict detection performance and determine thresholds while preserving monotonic relationships.
+- key: fan2024sensing
+  focus: [Signal Processing, Learning Algorithms]
+  contribution: Imitation learning infers jamming strategies from limited interactions to support sample-efficient decisions.
+- key: pu2023penalized
+  focus: [Signal Processing, Optimization]
+  contribution: Convex beamforming balances interference suppression and target protection with limited array degrees of freedom.
+- key: pu2022stochastic
+  focus: [Signal Processing, Optimization]
+  contribution: Fiber-sampled stochastic mirror descent enables scalable tensor decomposition under non-Euclidean losses.
+- key: pu2018optimal
+  focus: [Signal Processing, Optimization]
+  contribution: Nonlinear least squares and block coordinate descent identify sensor biases from asynchronous measurements.

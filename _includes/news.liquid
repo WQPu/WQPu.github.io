@@ -1,0 +1,75 @@
+{% assign all_items = "" %}
+{% assign news_sorted = site.news | reverse %}
+{% for year_file in news_sorted %}
+  {% assign li_parts = year_file.content | split: "<li>" %}
+  {% for part in li_parts %}
+    {% unless forloop.first %}
+      {% assign item_html = part | split: "</li>" | first | strip %}
+      {% assign all_items = all_items | append: item_html | append: "|||" %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+
+{% assign items = all_items | split: "|||" %}
+{% assign items_size = 0 %}
+{% for item in items %}
+  {% unless item == "" %}
+    {% assign items_size = items_size | plus: 1 %}
+  {% endunless %}
+{% endfor %}
+
+{% if items_size > 0 %}
+  {% if include.limit %}
+    {% assign display_limit = site.announcements.limit | default: 8 %}
+  {% else %}
+    {% assign display_limit = items_size %}
+  {% endif %}
+
+  {% if include.home %}
+    <div class="news-feed">
+      {% assign count = 0 %}
+      {% for item_html in items %}
+        {% unless item_html == "" %}
+          {% if count < display_limit %}
+            {% assign news_date = item_html | split: '</strong>' | first | remove: '<strong>' %}
+            {% assign news_body = item_html | split: '</strong>' | last | strip %}
+            <article class="news-feed__item">
+              <time class="news-feed__date">{{ news_date }}</time>
+              <div class="news-feed__body">{{ news_body }}</div>
+            </article>
+            {% assign count = count | plus: 1 %}
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+    </div>
+  {% else %}
+    <div
+      class="table-responsive"
+      {% if include.limit and site.announcements.scrollable and items_size > 3 %}
+        style="max-height: 60vw"
+      {% endif %}
+    >
+      <table class="table table-sm table-borderless">
+        {% assign count = 0 %}
+        {% for item_html in items %}
+          {% unless item_html == "" %}
+            {% if count < display_limit %}
+              <tr>
+                <td>{{ item_html }}</td>
+              </tr>
+              {% assign count = count | plus: 1 %}
+            {% endif %}
+          {% endunless %}
+        {% endfor %}
+      </table>
+    </div>
+  {% endif %}
+
+  {% if include.limit and items_size > display_limit %}
+    <div class="news-more">
+      <a href="{{ '/news/' | relative_url }}">All news <span aria-hidden="true">→</span></a>
+    </div>
+  {% endif %}
+{% else %}
+  <p>No news so far...</p>
+{% endif %}

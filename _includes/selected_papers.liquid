@@ -1,0 +1,43 @@
+{% if site.data.selected_publications.size > 0 %}
+  <ol class="selected-publications">
+    {% for selection in site.data.selected_publications %}
+      {% assign selected_paper = nil %}
+      {% assign selected_year = nil %}
+      {% for year in site.data.publications %}
+        {% for group in year.groups %}
+          {% assign match = group.items | where: 'key', selection.key | first %}
+          {% if match %}
+            {% assign selected_paper = match %}
+            {% assign selected_year = year.year %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+      {% if selected_paper and selection.contribution != blank %}
+        <li class="selected-publication">
+          <p class="selected-publication__venue">{{ selected_paper.abbr | default: selected_paper.venue }} · {{ selected_year }}</p>
+          <h3 class="selected-publication__title">
+            {% if selected_paper.doi and selected_paper.doi != '' %}
+              <a href="https://doi.org/{{ selected_paper.doi }}" target="_blank" rel="noopener">{{ selected_paper.title }}</a>
+            {% elsif selected_paper.url and selected_paper.url != '' %}
+              <a href="{{ selected_paper.url | escape }}" target="_blank" rel="noopener">{{ selected_paper.title }}</a>
+            {% else %}
+              {{ selected_paper.title }}
+            {% endif %}
+            {% if selection.focus and selection.focus.size > 0 %}
+              <span class="selected-publication__topic">({{ selection.focus | join: ' and ' | escape }})</span>
+            {% else %}
+              {% assign primary_topic_id = selected_paper.topics | first %}
+              {% assign primary_topic = site.data.publication_topics | where: 'id', primary_topic_id | first %}
+              {% if primary_topic %}<span class="selected-publication__topic">({{ primary_topic.name | escape }})</span>{% endif %}
+            {% endif %}
+          </h3>
+          <p class="selected-publication__authors">
+            {% include publication_authors.liquid paper=selected_paper %}
+          </p>
+          <p class="selected-publication__contribution">{{ selection.contribution | escape }}</p>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ol>
+{% endif %}
+<p class="publications-more"><a href="{{ '/publications/' | relative_url }}">View all publications <span aria-hidden="true">→</span></a></p>
