@@ -13,8 +13,8 @@ research_interests:
   - Learning Algorithms
 research_directions:
   - title: AI4Net & Net4AI
-    description: AI-driven modeling and optimization of wireless networks, alongside network design for distributed learning and inference. Topics include radio environment representations, adaptive resource allocation, and communication–computation co-design for networked intelligence.
-  - title: Agentic Decision-Making
+    description: AI-driven modeling and optimization of wireless networks, alongside distributed learning and inference over networks. Topics include radio environment representations, adaptive resource allocation, and communication, computation, and coding for network intelligence.
+  - title: Agentic Decision-Making with Limited Information
     description: Online learning and adaptive decision-making for agents operating under uncertainty and limited feedback. Topics include exploration–exploitation, learning in games, and reliable action selection in dynamic environments.
   - title: Recursive Intelligence for Engineering
     description: Agent-driven algorithm discovery and self-improving problem-solving systems for real-world engineering challenges. We study agents that improve their own approaches to modeling and solver design, with applications in industrial optimization and information networks.
