@@ -2,6 +2,8 @@
 layout: about
 title: About
 permalink: /
+display_name: Wenqiang Pu
+native_name: 蒲文强
 subtitle: >
   <span>Assistant Professor, Shenzhen Loop Area Institute</span>
 research_focus: >

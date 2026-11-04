@@ -5,7 +5,9 @@ layout: default
   <header class="academic-intro">
     <div class="academic-intro__copy">
       <h1 class="academic-intro__name">
-        {% if site.title == 'blank' %}
+        {% if page.display_name %}
+          {{ page.display_name | escape }}{% if page.native_name %}<span class="academic-intro__native-name" lang="zh-Hans">（{{ page.native_name | escape }}）</span>{% endif %}
+        {% elsif site.title == 'blank' %}
           {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
         {% else %}
           {{ site.title }}
