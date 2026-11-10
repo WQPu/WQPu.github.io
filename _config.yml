@@ -75,6 +75,8 @@ contact_note:
 
 google_analytics:
 google_site_verification:
+# Public Website ID from the Umami Cloud tracking code.
+umami_website_id: "74d1f487-6d7b-42bf-8533-30dac34af75c"
 
 # -----------------------------------------------------------------------------
 # Blog
