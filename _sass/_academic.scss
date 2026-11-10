@@ -419,7 +419,7 @@ table.table a:hover {
   align-items: center;
   border-top: 1px solid var(--academic-rule);
   display: grid;
-  gap: 1.1rem;
+  gap: 0.65rem;
   grid-template-columns: minmax(0, 1fr);
   justify-items: center;
   margin-top: 1.75rem;
@@ -436,85 +436,26 @@ table.table a:hover {
   text-transform: uppercase;
 }
 
-.visitor-map__figure {
+.visitor-map__status {
+  color: var(--academic-muted);
+  font-size: 0.8rem;
+  line-height: 1.5;
   margin: 0;
+}
+
+.visitor-map__visual {
   max-width: 340px;
   min-width: 0;
   width: 100%;
 }
 
-.visitor-map__canvas {
-  min-height: 190px;
-  position: relative;
-}
-
-.visitor-map__placeholder {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  inset: 0;
-  justify-content: center;
-  position: absolute;
-}
-
-.visitor-map__outline {
-  color: var(--academic-rule);
-  display: block;
+.visitor-map__image {
   height: auto;
-  width: 100%;
-}
-
-.visitor-map__status {
-  color: var(--academic-muted);
-  font-size: 0.72rem;
-  line-height: 1.5;
-  margin: 0.3rem 0 0;
-  text-align: center;
-}
-
-.visitor-map__embed {
-  min-height: inherit;
-  visibility: hidden;
-  width: 100%;
-}
-
-.visitor-map[data-state="ready"] .visitor-map__placeholder {
-  display: none;
-}
-
-.visitor-map[data-state="ready"] .visitor-map__embed {
-  visibility: visible;
-}
-
-.visitor-map #mapmyvisitors-widget {
-  color: var(--academic-muted);
-  display: block;
-  font-family: inherit !important;
-  margin: 0 auto;
   max-width: 100%;
-  text-decoration: none;
 }
 
-.visitor-map .mapmyvisitors-map-container {
-  background-color: var(--academic-paper) !important;
-}
-
-.visitor-map .mapmyvisitors-map {
-  aspect-ratio: 2.04;
-  background-size: 100% 100%;
-  height: auto !important;
-  width: 100% !important;
-}
-
-.visitor-map .mapmyvisitors-map-container .mpmvs {
-  color: var(--academic-muted) !important;
-  font-family: inherit !important;
-  font-size: 11px !important;
-}
-
-.visitor-map .jvectormap-marker {
-  fill: var(--academic-accent) !important;
-  stroke: var(--academic-paper) !important;
+.visitor-map__statistics {
+  font-size: 0.8rem;
 }
 
 .visitor-map a:focus-visible {
@@ -524,7 +465,6 @@ table.table a:hover {
 
 @media (max-width: 575.98px) {
   .visitor-map {
-    gap: 1rem;
     margin-top: 1.5rem;
   }
 }
